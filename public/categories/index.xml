@@ -7,27 +7,13 @@
     <generator>Hugo</generator>
     <language>ru</language>
     <copyright>© Акакий Чертыханский</copyright>
-    <lastBuildDate>Thu, 12 Sep 2024 01:35:13 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 01:26:18 +0500</lastBuildDate>
     <atom:link href="https://chertyhansky.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Temp</title>
       <link>https://chertyhansky.github.io/categories/temp/</link>
-      <pubDate>Thu, 12 Sep 2024 01:35:13 +0500</pubDate>
+      <pubDate>Thu, 12 Sep 2024 01:26:18 +0500</pubDate>
       <guid>https://chertyhansky.github.io/categories/temp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Syntax</title>
-      <link>https://chertyhansky.github.io/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://chertyhansky.github.io/categories/syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>https://chertyhansky.github.io/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://chertyhansky.github.io/categories/themes/</guid>
       <description></description>
     </item>
   </channel>

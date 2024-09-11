@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chertyhansky.github.io/categories/</loc>
-    <lastmod>2024-09-12T01:35:13+05:00</lastmod>
-  </url><url>
     <loc>https://chertyhansky.github.io/tags/index/</loc>
     <lastmod>2024-09-12T01:35:13+05:00</lastmod>
   </url><url>
@@ -14,70 +11,27 @@
     <loc>https://chertyhansky.github.io/tags/</loc>
     <lastmod>2024-09-12T01:35:13+05:00</lastmod>
   </url><url>
-    <loc>https://chertyhansky.github.io/tags/temp/</loc>
-    <lastmod>2024-09-12T01:35:13+05:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/categories/temp/</loc>
-    <lastmod>2024-09-12T01:35:13+05:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/post/abyrvalg/</loc>
-    <lastmod>2024-09-12T01:35:13+05:00</lastmod>
-  </url><url>
     <loc>https://chertyhansky.github.io/</loc>
     <lastmod>2024-09-12T01:35:13+05:00</lastmod>
+  </url><url>
+    <loc>https://chertyhansky.github.io/categories/</loc>
+    <lastmod>2024-09-12T01:26:18+05:00</lastmod>
+  </url><url>
+    <loc>https://chertyhansky.github.io/tags/temp/</loc>
+    <lastmod>2024-09-12T01:26:18+05:00</lastmod>
+  </url><url>
+    <loc>https://chertyhansky.github.io/categories/temp/</loc>
+    <lastmod>2024-09-12T01:26:18+05:00</lastmod>
+  </url><url>
+    <loc>https://chertyhansky.github.io/post/test/</loc>
+    <lastmod>2024-09-12T01:26:18+05:00</lastmod>
   </url><url>
     <loc>https://chertyhansky.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chertyhansky.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/post/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/post/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/post/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chertyhansky.github.io/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chertyhansky.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chertyhansky.github.io/series/</loc>
   </url>
 </urlset>

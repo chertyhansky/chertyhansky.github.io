@@ -7,14 +7,14 @@
     <generator>Hugo</generator>
     <language>ru</language>
     <copyright>© Акакий Чертыханский</copyright>
-    <lastBuildDate>Thu, 12 Sep 2024 01:35:13 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 01:26:18 +0500</lastBuildDate>
     <atom:link href="https://chertyhansky.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Абырвалг!</title>
-      <link>https://chertyhansky.github.io/post/abyrvalg/</link>
-      <pubDate>Thu, 12 Sep 2024 01:35:13 +0500</pubDate>
-      <guid>https://chertyhansky.github.io/post/abyrvalg/</guid>
-      <description>&lt;p&gt;Абырвалг!&lt;/p&gt;</description>
+      <title>Test</title>
+      <link>https://chertyhansky.github.io/post/test/</link>
+      <pubDate>Thu, 12 Sep 2024 01:26:18 +0500</pubDate>
+      <guid>https://chertyhansky.github.io/post/test/</guid>
+      <description>&lt;p&gt;А это тестовый пост.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
@@ -24,46 +24,11 @@
       <description></description>
     </item>
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://chertyhansky.github.io/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://chertyhansky.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>https://chertyhansky.github.io/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://chertyhansky.github.io/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://chertyhansky.github.io/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://chertyhansky.github.io/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://chertyhansky.github.io/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://chertyhansky.github.io/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>https://chertyhansky.github.io/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://chertyhansky.github.io/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>About</title>
       <link>https://chertyhansky.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://chertyhansky.github.io/about/</guid>
-      <description>&lt;p&gt;А тут потом напишу что-нибудь умное.&lt;/p&gt;&#xA;&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;&#xA;&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Вы попали в бложик красноглазого линуксоида. Такого, который не понимает зачем нужен инстаграм и до сих пор монтирует флешки вручную, предпочитает терминал окошечкам с кнопочками и всячески избегает пользоваться мышью.&lt;/p&gt;&#xA;&lt;p&gt;А ещё я немножко велосипедист, возможно что-то про велопоходики и в ту степь тоже напишу.&lt;/p&gt;&#xA;&lt;p&gt;Велком!&lt;/p&gt;&#xA;&lt;p&gt;Contacts:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:chertyhansky@yandex.ru&#34;&gt;chertyhansky@yandex.ru&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;tg: @chertyhansky&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

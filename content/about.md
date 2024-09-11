@@ -1,27 +1,19 @@
 +++
 title = "About"
-description = "Тут будет какое-то умное описание"
+description = "Ху эм ай энд вас ист дас"
 date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+aliases = ["about", "contact"]
+author = "Akaky Chertyhansky"
 +++
 
-А тут потом напишу что-нибудь умное.
+Вы попали в бложик красноглазого линуксоида. Такого, который не понимает зачем нужен инстаграм и до сих пор монтирует флешки вручную, предпочитает терминал окошечкам с кнопочками и всячески избегает пользоваться мышью.
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+А ещё я немножко велосипедист, возможно что-то про велопоходики и в ту степь тоже напишу.
 
-Hugo makes use of a variety of open source projects including:
+Велком!
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Contacts:
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+chertyhansky@yandex.ru
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+tg: @chertyhansky
