@@ -1,1 +1,0 @@
-# chertyhansky.github.io
