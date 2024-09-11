@@ -1,5 +1,6 @@
 baseURL = "https://chertyhansky.github.io"
 theme = "risotto"
+# theme = "bearblog"
 title = "Пикник на обочине клавиатуры"
 author = "Акакий Чертыханский"
 copyright = "© Акакий Чертыханский"
