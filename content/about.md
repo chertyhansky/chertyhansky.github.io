@@ -14,6 +14,6 @@ author = "Akaky Chertyhansky"
 
 Contacts:
 
-chertyhansky@yandex.ru
+[chertyhansky@yandex.ru](mailto:chertyhansky@yandex.ru)
 
-tg: @chertyhansky
+[tg: @chertyhansky](https://t.me/chertyhabsky)

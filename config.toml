@@ -1,11 +1,11 @@
-baseURL = "https://risotto.joeroe.io"
+baseURL = "chertyhansky.yandex.ru"
 theme = "risotto"
-title = "risotto demo"
-author = "Joe Roe"
-copyright = "© [Joe Roe](https://joeroe.io) & [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors)."
-paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
+title = "Пикник на обочине"
+author = "Акакий Чертыханский"
+copyright = "© Акакий Чертыханский"
+# paginate = 3
+languageCode = "ru"
+DefaultContentLanguage = "ru"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
@@ -22,8 +22,8 @@ palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = "risotto"
-description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
+title = "Пикник на обочине"
+description = "&& заметки на полях"
 # unicode/emoji logo:
 logo = "🍚"
 # or use an image:
@@ -37,17 +37,17 @@ logo = "🍚"
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/joeroe/risotto"
+url = "https://github.com/chertyhansky"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:example@example.com"
+url = "mailto:chertyhansky@yandex.ru"
 
-[[params.socialLinks]]
-icon = "ai ai-orcid"
-title = "ORCID"
-url = "https://orcid.org/0000-0001-2345-6789"
+# [[params.socialLinks]]
+# icon = "ai ai-orcid"
+# title = "ORCID"
+# url = "https://orcid.org/0000-0001-2345-6789"
 
 [menu]
 
@@ -56,6 +56,22 @@ url = "https://orcid.org/0000-0001-2345-6789"
     name = "About"
     url = "/about/"
     weight = 10
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "post"
+    name = "Posts"
+    url = "/post/"
+    weight = 40
+
 
 [taxonomies]
 category = "categories"

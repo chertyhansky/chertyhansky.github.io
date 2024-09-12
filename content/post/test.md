@@ -1,13 +1,7 @@
 +++
 title = 'Test'
-author = 'Akaky Chertyhansky'
-date = 2024-09-12T01:26:18+05:00
-tags = [
-    'temp',
-    ]
-categories = [
-    'temp',
-    ]
+date = 2024-09-12T10:07:12+05:00
+draft = true
 +++
 
-А это тестовый пост.
+Это тестовый пост.
