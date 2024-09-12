@@ -6,50 +6,15 @@
     <description>Recent content in Posts on Пикник на обочине</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <copyright>© Акакий Чертыханский</copyright>
-    <lastBuildDate>Thu, 12 Sep 2024 10:07:12 +0500</lastBuildDate>
+    <copyright>© Akaky Chertyhansky</copyright>
+    <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>//localhost:1313/post/test/</link>
-      <pubDate>Thu, 12 Sep 2024 10:07:12 +0500</pubDate>
-      <guid>//localhost:1313/post/test/</guid>
-      <description>&lt;p&gt;Это тестовый пост.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>//localhost:1313/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>//localhost:1313/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>//localhost:1313/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>//localhost:1313/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>//localhost:1313/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <title>Статьи</title>
+      <link>//localhost:1313/post/articles/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/articles/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://habr.com/ru/articles/222285/&#34;&gt;XKB: перенастроим клавиши под себя любимого&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;xmodmap&lt;/li&gt;&#xA;&lt;li&gt;xkb&lt;/li&gt;&#xA;&lt;li&gt;setxkbmap&lt;/li&gt;&#xA;&lt;li&gt;xcape&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

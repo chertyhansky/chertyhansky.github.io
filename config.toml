@@ -1,8 +1,8 @@
 baseURL = "chertyhansky.yandex.ru"
 theme = "risotto"
 title = "Пикник на обочине"
-author = "Акакий Чертыханский"
-copyright = "© Акакий Чертыханский"
+author = "Akaky Chertyhansky"
+copyright = "© Akaky Chertyhansky"
 # paginate = 3
 languageCode = "ru"
 DefaultContentLanguage = "ru"
@@ -25,7 +25,7 @@ palette = "base16-dark"
 title = "Пикник на обочине"
 description = "&& заметки на полях"
 # unicode/emoji logo:
-logo = "🍚"
+logo = "ꓒЎЪ"
 # or use an image:
 #logo_image = "images/rice.svg"
 
