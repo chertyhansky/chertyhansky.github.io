@@ -19,3 +19,7 @@ categories = [
     - xkb
     - setxkbmap
     - xcape
+
+2. [Command Challenge](https://cmdchallenge.com/)
+    - bash
+    - shell
