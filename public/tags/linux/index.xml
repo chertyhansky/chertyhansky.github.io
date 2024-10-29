@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Костыль и велосипед</title>
-    <link>chertyhansky.yandex.ru/post/</link>
-    <description>Recent content in Posts on Костыль и велосипед</description>
+    <title>Linux on Костыль и велосипед</title>
+    <link>chertyhansky.yandex.ru/tags/linux/</link>
+    <description>Recent content in Linux on Костыль и велосипед</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <copyright>© Akaky Chertyhansky</copyright>
     <lastBuildDate>Tue, 29 Oct 2024 21:12:48 +0500</lastBuildDate>
-    <atom:link href="chertyhansky.yandex.ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="chertyhansky.yandex.ru/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как избавиться от мышей</title>
       <link>chertyhansky.yandex.ru/post/2024.10.29-211247-howto_get_rid_of_mice/</link>
       <pubDate>Tue, 29 Oct 2024 21:12:48 +0500</pubDate>
       <guid>chertyhansky.yandex.ru/post/2024.10.29-211247-howto_get_rid_of_mice/</guid>
       <description>&lt;h2 id=&#34;преамбула&#34;&gt;Преамбула&lt;/h2&gt;&#xA;&lt;p&gt;Здрассьте.&lt;/p&gt;&#xA;&lt;p&gt;Так уж сложилось, что не люблю я девайс под названием «мышь».&#xA;Нет, оно годится чтобы чертить чертёжики, подправить фотографию в гимпе, и т.п..&#xA;Но вот для управления интерфейсом — это чистой воды маразм.&#xA;Пример — тот же браузер.  Как это работает у большинства юзеров: тыкнул мышкой иконку браузера, тыкнул в адресную строку, схватился за клавиатуру, набрал адрес поисковика, схватил мышь, тыкнул в строку поиска, схватил клавиатуру, набрал запрос, опять мышь, чтобы тыкнуть в ссылку.&#xA;И вот так постоянно. Плюс, мышь требует координации. Нельзя неглядя ткнуть мышью кнопку.&#xA;Курсор мыши надо сначала «поймать» глазами, потом навести и ткнуть. Тогда как хоткей нажимается мнговенно (ну, почти).&#xA;В итоге имеем тот факт, что 50% полезного времени уходит на хватание мыши и поиск курсора, хватание клавиатуры и поиск буковок, и так по кругу.&#xA;Вроде как в *nix изначально изначально мышь позиционировалась как устройство выделения/копирования/вставки, но в какой-то момент они свернули не туда, и теперь мы имеем gnome, kde и прочее, где без мыши не сделать почти ничего.&#xA;В некоторых программах, например, даже в меню ни попасть никак, кроме как мышью.&#xA;Уже лет эдак 15 я с этим делом пытаюсь бороться с переменным успехом.&#xA;Наверное, ничего нового я здесь не открою, но постараюсь собрать в одном месте всё, чем пользуюсь.&#xA;Это пока что будет вроде как вводная обзорная статейка, позже пройдусь по более конкретным вещам.&#xA;Для начала разберёмся&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Статьи</title>
-      <link>chertyhansky.yandex.ru/post/articles/</link>
-      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>chertyhansky.yandex.ru/post/articles/</guid>
-      <description>&lt;p&gt;Здесь будут ссылки на интересные статьи из интернетов&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://habr.com/ru/articles/222285/&#34;&gt;XKB: перенастроим клавиши под себя любимого&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;xmodmap&lt;/li&gt;&#xA;&lt;li&gt;xkb&lt;/li&gt;&#xA;&lt;li&gt;setxkbmap&lt;/li&gt;&#xA;&lt;li&gt;xcape&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://cmdchallenge.com/&#34;&gt;Command Challenge&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;bash&lt;/li&gt;&#xA;&lt;li&gt;shell&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

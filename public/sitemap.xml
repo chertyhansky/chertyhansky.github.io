@@ -2,51 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>chertyhansky.yandex.ru/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>chertyhansky.yandex.ru/categories/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/index/</loc>
+    <loc>chertyhansky.yandex.ru/tags/index/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/nocategory/</loc>
+    <loc>chertyhansky.yandex.ru/tags/keyboard/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/notag/</loc>
+    <loc>chertyhansky.yandex.ru/tags/linux/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/</loc>
+    <loc>chertyhansky.yandex.ru/categories/linux/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>chertyhansky.yandex.ru/tags/mouse/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/2024.10.29-211247-howto_get_rid_of_mice/</loc>
+    <loc>chertyhansky.yandex.ru/tags/notion/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</loc>
+    <loc>chertyhansky.yandex.ru/post/</loc>
+    <lastmod>2024-10-29T21:12:48+05:00</lastmod>
+  </url><url>
+    <loc>chertyhansky.yandex.ru/tags/</loc>
+    <lastmod>2024-10-29T21:12:48+05:00</lastmod>
+  </url><url>
+    <loc>chertyhansky.yandex.ru/tags/vim/</loc>
+    <lastmod>2024-10-29T21:12:48+05:00</lastmod>
+  </url><url>
+    <loc>chertyhansky.yandex.ru/post/2024.10.29-211247-howto_get_rid_of_mice/</loc>
+    <lastmod>2024-10-29T21:12:48+05:00</lastmod>
+  </url><url>
+    <loc>chertyhansky.yandex.ru/tags/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</loc>
+    <loc>chertyhansky.yandex.ru/categories/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</loc>
+    <loc>chertyhansky.yandex.ru/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/articles/</loc>
+    <loc>chertyhansky.yandex.ru/post/articles/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test/</loc>
-    <lastmod>2024-09-02T10:07:12+05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/archives/</loc>
+    <loc>chertyhansky.yandex.ru/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>chertyhansky.yandex.ru/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/</loc>
+    <loc>chertyhansky.yandex.ru/series/</loc>
   </url>
 </urlset>

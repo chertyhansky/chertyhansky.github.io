@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Костыль и велосипед</title>
-    <link>//localhost:1313/series/</link>
+    <link>chertyhansky.yandex.ru/series/</link>
     <description>Recent content in Series on Костыль и велосипед</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <copyright>© Akaky Chertyhansky</copyright>
-    <atom:link href="//localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="chertyhansky.yandex.ru/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
