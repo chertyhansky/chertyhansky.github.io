@@ -1,6 +1,6 @@
 baseURL = "chertyhansky.yandex.ru"
 theme = "risotto"
-title = "Пикник на обочине"
+title = "Костыль и велосипед"
 author = "Akaky Chertyhansky"
 copyright = "© Akaky Chertyhansky"
 # paginate = 3
@@ -16,18 +16,19 @@ sectionPagesMenu = "main"
 
 [params]
 noindex = false
+math = true
 
 [params.theme]
 palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = "Пикник на обочине"
-description = "&& заметки на полях"
+title = "Костыль и велосипед"
+description = "...семь бед - один ответ!"
 # unicode/emoji logo:
-logo = "ꓒЎЪ"
+# logo = "ꓒЎЪ"
 # or use an image:
-#logo_image = "images/rice.svg"
+logo_image = "icon.svg"
 
 # Sidebar: social links
 # Available icon sets:

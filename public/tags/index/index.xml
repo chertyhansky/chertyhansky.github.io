@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Index on Пикник на обочине</title>
+    <title>Index on Костыль и велосипед</title>
     <link>//localhost:1313/tags/index/</link>
-    <description>Recent content in Index on Пикник на обочине</description>
+    <description>Recent content in Index on Костыль и велосипед</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <copyright>© Akaky Chertyhansky</copyright>
-    <lastBuildDate>Thu, 12 Sep 2024 10:07:12 +0500</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2024 21:12:48 +0500</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
       <link>//localhost:1313/post/</link>
-      <pubDate>Thu, 12 Sep 2024 10:07:12 +0500</pubDate>
+      <pubDate>Tue, 29 Oct 2024 21:12:48 +0500</pubDate>
       <guid>//localhost:1313/post/</guid>
       <description></description>
     </item>

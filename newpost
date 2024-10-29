@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+POST_NAME="$(date +%Y.%m.%d-%H:%M:%S)-$@"
+
+hugo new post/${POST_NAME}.md

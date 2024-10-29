@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Статьи on Пикник на обочине</title>
+    <title>Статьи on Костыль и велосипед</title>
     <link>//localhost:1313/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</link>
-    <description>Recent content in Статьи on Пикник на обочине</description>
+    <description>Recent content in Статьи on Костыль и велосипед</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <copyright>© Akaky Chertyhansky</copyright>
@@ -14,7 +14,7 @@
       <link>//localhost:1313/post/articles/</link>
       <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/post/articles/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://habr.com/ru/articles/222285/&#34;&gt;XKB: перенастроим клавиши под себя любимого&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;xmodmap&lt;/li&gt;&#xA;&lt;li&gt;xkb&lt;/li&gt;&#xA;&lt;li&gt;setxkbmap&lt;/li&gt;&#xA;&lt;li&gt;xcape&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;p&gt;Здесь будут ссылки на интересные статьи из интернетов&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://habr.com/ru/articles/222285/&#34;&gt;XKB: перенастроим клавиши под себя любимого&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;xmodmap&lt;/li&gt;&#xA;&lt;li&gt;xkb&lt;/li&gt;&#xA;&lt;li&gt;setxkbmap&lt;/li&gt;&#xA;&lt;li&gt;xcape&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://cmdchallenge.com/&#34;&gt;Command Challenge&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;bash&lt;/li&gt;&#xA;&lt;li&gt;shell&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>
