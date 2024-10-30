@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xkb on Костыль и велосипед</title>
+    <link>chertyhansky.yandex.ru/tags/xkb/</link>
+    <description>Recent content in Xkb on Костыль и велосипед</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <copyright>© Akaky Chertyhansky</copyright>
+    <lastBuildDate>Wed, 30 Oct 2024 21:15:56 +0500</lastBuildDate>
+    <atom:link href="chertyhansky.yandex.ru/tags/xkb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Разборки с клавиатурой</title>
+      <link>chertyhansky.yandex.ru/post/2024.10.30-211556-keyboard_showdown/</link>
+      <pubDate>Wed, 30 Oct 2024 21:15:56 +0500</pubDate>
+      <guid>chertyhansky.yandex.ru/post/2024.10.30-211556-keyboard_showdown/</guid>
+      <description>&lt;h2 id=&#34;преамбула&#34;&gt;Преамбула&lt;/h2&gt;&#xA;&lt;p&gt;Когда-то давно наткнулся на сборник статей под названием &lt;a href=&#34;https://unixforum.org/viewtopic.php?t=49203&#34;&gt;&amp;ldquo;заметки на полях клавиатуры&amp;rdquo;&lt;/a&gt;. Крайне рекомендую тем, кто вдруг не читал. Впечатлившись, сначала переназначил себе переключение раскладок на нециклическое - &lt;key&gt;LCtrl&lt;/key&gt; - en, &lt;key&gt;RCtrl&lt;/key&gt; - ru. А сам &lt;key&gt;Ctrl&lt;/key&gt; переназначил на &lt;key&gt;CapsLock&lt;/key&gt;. Сейчас в дебрях xkb уже есть вариант переключения раскладок &lt;code&gt;lctrl_rctrl_toggle&lt;/code&gt;, поэтому даже не нужно ничего особенно делать, просто выбрать этот вариант переключения, если вдруг остальное в раскладке клавиатуры устраивает.&lt;/p&gt;&#xA;&lt;p&gt;Потом выяснилось, что в xkb есть third level, что позволяет на одну клавишу повесить не два символа, а 4: например, помимо &lt;code&gt;c&lt;/code&gt; и &lt;code&gt;C&lt;/code&gt; эта же клавиша с дополнительным модификатором (у меня это &lt;key&gt;RAlt&lt;/key&gt;) будет выдавать ещё и &lt;code&gt;°&lt;/code&gt; и &lt;code&gt;©&lt;/code&gt;. Ну а поскольку держать это всё в куче дополнительных файлов и собирать потом эту солянку в xorg.conf - то ещё удовольствие, я решил пойти более прямым путём и написать свою раскладку.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

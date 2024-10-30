@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head><title>Разборки с клавиатурой &ndash; Костыль и велосипед</title>
+<meta name="description" content="...семь бед - один ответ!">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="chertyhansky.yandex.ru/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="chertyhansky.yandex.ru/css/risotto.css">
+<link rel="stylesheet" href="chertyhansky.yandex.ru/css/custom.css">
+
+
+<link rel="icon" href="chertyhansky.yandex.ru/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="chertyhansky.yandex.ru/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="chertyhansky.yandex.ru/favicon-16x16.png">
+<link rel="apple-touch-icon" href="chertyhansky.yandex.ru/apple-touch-icon.png">
+<link rel="manifest" href="chertyhansky.yandex.ru/site.webmanifest">
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="chertyhansky.yandex.ru/" class="page__logo-inner">Костыль и велосипед</a></h1></li>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="chertyhansky.yandex.ru/chertyhansky.yandex.ru/about/" title="">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="chertyhansky.yandex.ru/chertyhansky.yandex.ru/categories/" title="">Categories</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="chertyhansky.yandex.ru/chertyhansky.yandex.ru/tags/" title="">Tags</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="chertyhansky.yandex.ru/chertyhansky.yandex.ru/post/" title="">Posts</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Разборки с клавиатурой</h1>
+    </header>
+    <div class="content__body">
+        <h2 id="преамбула">Преамбула</h2>
+<p>Когда-то давно наткнулся на сборник статей под названием <a href="https://unixforum.org/viewtopic.php?t=49203">&ldquo;заметки на полях клавиатуры&rdquo;</a>. Крайне рекомендую тем, кто вдруг не читал. Впечатлившись, сначала переназначил себе переключение раскладок на нециклическое - <key>LCtrl</key> - en, <key>RCtrl</key> - ru. А сам <key>Ctrl</key> переназначил на <key>CapsLock</key>. Сейчас в дебрях xkb уже есть вариант переключения раскладок <code>lctrl_rctrl_toggle</code>, поэтому даже не нужно ничего особенно делать, просто выбрать этот вариант переключения, если вдруг остальное в раскладке клавиатуры устраивает.</p>
+<p>Потом выяснилось, что в xkb есть third level, что позволяет на одну клавишу повесить не два символа, а 4: например, помимо <code>c</code> и <code>C</code> эта же клавиша с дополнительным модификатором (у меня это <key>RAlt</key>) будет выдавать ещё и <code>°</code> и <code>©</code>. Ну а поскольку держать это всё в куче дополнительных файлов и собирать потом эту солянку в xorg.conf - то ещё удовольствие, я решил пойти более прямым путём и написать свою раскладку.</p>
+<pre tabindex="0"><code> ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+ │ ~ ~ │ ! ≈ │ @ ∞ │ # § │ $ € │ % ‰ │ ^ ≤ │ &amp; ≥ │ * × │ ( { │ ) } │ _ – │ + ± ┃ ⌫       ┃
+ │ `  ́ │ 1 ÷ │ 2 ¤ │ 3 № │ 4 $ │ 5 ° │ 6 &lt; │ 7 &gt; │ 8 • │ 9 [ │ 0 ] │ - — │ = ≠ ┃Backspace┃
+ ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+ ┃       ┃ Q   │ W   │ E   │ R ® │ T   │ Y   │ U   │ I   │ O   │ P   │ {   │ }   ┃ Enter ┃
+ ┃ Tab ↹ ┃ q   │ w 3 │ e 2 │ r 1 │ t   │ y   │ u PU│ i Hm│ o En│ p   │ [   │ ]   ┃   ⏎   ┃
+ ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+ ┃ Ctrl   ┃ A   │ S   │ D   │ F   │ G   │ H   │ J   │ K   │ L   │ :   │ &#34;   │ |   ┃      ┃
+ ┃        ┃ a   │ s 6 │ d PD│ f 4 │ g   │ h ← │ j ↓ │ k ↑ │ l → │ ;   │ &#39;   │ \   ┃      ┃
+ ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┷━━━━━┻━━━━━━┫
+ ┃          ┃ Z   │ X   │ C © │ V   │ B   │ N ™ │ M   │ &lt; « │ &gt; » │ ?   ┃                ┃
+ ┃  Shift ⇧ ┃ z „ │ x “ │ c ° │ v   │ b   │ n ₸ │ m µ │ , „ │ . “ │ /   ┃     Shift ⇧    ┃
+ ┣━━━━━━━┳━━┻━━━━┳┷━━━━━┷┱────┴─────┴─────┴─────┴─────┴─────┴┲━━━━┷━━┳━━┻━━━━┳━━━━━━━┳━━━┛
+ ┃       ┃       ┃       ┃                                   ┃  LV3  ┃       ┃       ┃
+ ┃ Grp1  ┃ Meta  ┃  Alt  ┃              Space                ┃AltGr ⇮┃ Menu  ┃ Grp2  ┃
+ ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+</code></pre><pre tabindex="0"><code> ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+ │ Ё ~ │ ! ≈ │ &#34; ∞ │ # § │ ; € │ : ‰ │ , ≤ │ . ≥ │ * × │ ( { │ ) } │ _ – │ + ± ┃ ⌫       ┃
+ │ ё &#39; │ 1 ÷ │ 2 ¤ │ 3 № │ 4 $ │ 5 ° │ 6 &lt; │ 7 &gt; │ 8 • │ 9 [ │ 0 ] │ - — │ = ≠ ┃Backspace┃
+ ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+ ┃       ┃ Й Ұ │ Ц   │ У Ү │ К Қ │ Е Є │ Н Ң │ Г Ғ │ Ш Ї │ Щ Ө │ З   │ Х Һ │ Ъ Ї ┃ Enter ┃
+ ┃ Tab ↹ ┃ й ұ │ ц   │ у ү │ к қ │ е є │ н ң │ г ғ │ ш ї │ щ ө │ з § │ х һ │ ъ ї ┃   ⏎   ┃
+ ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+ ┃ Ctrl   ┃ Ф   │ Ы І │ В Ў │ А Ә │ П   │ Р   │ О   │ Л   │ Д   │ Ж : │ Э &#34; │ | ¦ ┃      ┃
+ ┃        ┃ ф   │ ы і │ в ў │ а ә │ п § │ р ← │ о ↓ │ л ↑ │ д → │ ж ; │ э &#39; │ / \ ┃      ┃
+ ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┷━━━━━┻━━━━━━┫
+ ┃          ┃ Я   │ Ч   │ С © │ М   │ И   │ Т ™ │ Ь ₽ │ Б « │ Ю » │ ?   ┃                ┃
+ ┃  Shift ⇧ ┃ я „ │ ч “ │ с ° │ м   │ и   │ т ₸ │ ь µ │ б &lt; │ ю &gt; │ /   ┃     Shift ⇧    ┃
+ ┣━━━━━━━┳━━┻━━━━┳┷━━━━━┷┱────┴─────┴─────┴─────┴─────┴─────┴┲━━━━┷━━┳━━┻━━━━┳━━━━━━━┳━━━┛
+ ┃       ┃       ┃       ┃                                   ┃ LV3   ┃       ┃       ┃
+ ┃ Grp1  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Grp2  ┃
+ ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+</code></pre><h2 id="пишем">Пишем</h2>
+<p>Ничего сложного в этом нет. В качестве примеров можно посмотреть в <code>/usr/share/X11/xkb/symbols/us</code> или <code>/usr/share/X11/xkb/symbols/ru</code> (путь может отличаться в зависимости от дистрибутива). Но эти файлы мы трогать не будем, т.к. они перезаписываются при каждом обновлении xkb.</p>
+<p>Мы создадим свои файлы в <code>/usr/share/X11/xkb/symbols/</code>, например, <code>us_my</code> и <code>ru_my</code>. Имя может быть любым, главное чтобы такого файла не было (и не могло появиться) в стандартном xkb.</p>
+<h2 id="формат-файла">Формат файла</h2>
+<p>Строки, начинающиеся с <code>//</code> - комментарии.</p>
+<p>Файл начинается с объявления раскладки:</p>
+<pre tabindex="0"><code>default partial alphanumeric_keys
+xkb_symbols &#34;my&#34; {
+    include &#34;us(basic)&#34;
+    include &#34;level3(ralt_switch)&#34;
+    name[Group1]= &#34;English (with ads)&#34;;
+    ...
+}
+// Не забыть закрыть скобку в конце, иначе не заработает.
+</code></pre><p>В одном файле их может быть несколько.</p>
+<p>Здесь мы объявили раскладку <code>&quot;my&quot;</code>.
+j
+Далее две директивы include.
+Первой мы прочитали секцию <code>&quot;basic&quot;</code> из файла <code>us</code>.
+Т.е. нам уже не нужно описывать всю раскладку целиком, она сейчас совпадает с той, что описана в файле <code>us</code>, в секции <code>xkb_symbols &quot;basic&quot;</code>.
+Мы поменяем только то, что нам нужно.</p>
+<p>Второй include читает секцию <code>xkb_symbols &quot;ralt_switch&quot;</code> из файла <code>level3</code>.
+Это можно было бы сделать опцией в xorg.conf, и было бы идеологически более правильно, но&hellip;
+Я пишу раскладку себе, и мне проще, когда она вся написана в одном месте.</p>
+<p>Ну и <code>name[Group1]</code> - просто удобочитаемое имя.</p>
+<p>А дальше&hellip;</p>
+<pre tabindex="0"><code>    key &lt;RALT&gt;	{ [ ISO_Level3_Shift ]	};
+    key &lt;MENU&gt;	{ [ Menu ]	};
+</code></pre><p>Да, бац - и переписали то, ради чего был последний include.
+У меня в файлах немного бардак, так что include можно убрать и оставить это.
+Ну или убрать эту строку. Оставлю на усмотрение читателя.</p>
+<p>Далее - объявление клавиши Menu. Тоже атавизм - на нынешней клавиатуре у меня её нет, а строчка осталась.</p>
+<p>А дальше - первый ряд клавиатуры, цифры:</p>
+<pre tabindex="0"><code>    key &lt;TLDE&gt; { [ grave,	asciitilde,		U2019,				apostrophe		] };
+    key &lt;AE01&gt; { [ 1,		exclam,			division,			U2248			] };
+    key &lt;AE02&gt; { [ 2,		at,				currency,			infinity		] };
+    key &lt;AE03&gt; { [ 3,		numbersign,		numerosign,			U20B4			] };
+    key &lt;AE04&gt; { [ 4,		dollar,			dollar,				EuroSign		] };
+    key &lt;AE05&gt; { [ 5,		percent,		degree,				permille		] };
+    key &lt;AE06&gt; { [ 6,		asciicircum,	less,				lessthanequal	] };
+    key &lt;AE07&gt; { [ 7,		ampersand,		greater,			greaterthanequal ] };
+    key &lt;AE08&gt; { [ 8,		asterisk,		enfilledcircbullet,	multiply		] };
+    key &lt;AE09&gt; { [ 9,		parenleft,		bracketleft,		braceleft		] };
+    key &lt;AE10&gt; { [ 0,		parenright,		bracketright,		braceright		] };
+    key &lt;AE11&gt; { [ minus,	underscore,		emdash,				endash			] };
+    key &lt;AE12&gt; { [ equal,	plus,			notequal,			plusminus		] };
+</code></pre><p>Здесь каждая клавиша имеет 4 символа.
+Для <key>1</key> это будет, соответственно, нажатие <key>1</key>, <key>Shift</key>+<key>1</key>, <key>RAlt</key>+<key>1</key>, <key>RAlt</key>+<key>Shift</key>+<key>1</key>.
+Не буду приводить листинг всего файла, лучше прикреплю свои целиком.</p>
+<p><a href="/files/us_dclxvi">us_dclxvi</a></p>
+<p><a href="/files/ru_dclxvi">ru_dclxvi</a></p>
+<h2 id="парочка-финтов-ушами">Парочка финтов ушами</h2>
+<p>Могут привлечь внимание последние строки в файле:</p>
+<pre tabindex="0"><code>    key &lt;SPCE&gt; {[  space,  Escape  ], type[group1] = &#34;PC_CONTROL_LEVEL2&#34; };
+    key &lt;PRSC&gt;  { [ ISO_Last_Group, Print], type[group1] = &#34;PC_CONTROL_LEVEL2&#34; };
+</code></pre><p>Наверное, несложно догадаться что это, но для полной ясности поясню что это и почему оно не работает (второе мне было неочевидно по началу).</p>
+<p>Первая описывает клавишу <key>Space</key>, она же <key>Пробел</key>.
+Мне очень хотелось, чтобы <key>Ctrl</key>+<key>Space</key> в результате давало <key>Esc</key>.
+Но ничего у меня не вышло, т.к. выдаёт оно не просто <key>Esc</key>, а <key>Ctrl</key>+<key>Esc</key>.</p>
+<p>В итоге сначала нашёл решение в виде утилиты <a href="https://github.com/alols/xcape">xcape</a>.
+Она позволяет в том числе назначить на любой модификатор клавишу <key>Esc</key>, если он просто нажат.
+Таким образом у меня получилось следующее:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># эту строку добавить в ~/.xinitrc:</span>
+</span></span><span style="display:flex;"><span>xcape -t <span style="color:#ae81ff">1000</span> -e <span style="color:#e6db74">&#39;Control_L=ISO_First_Group;XF86WakeUp=ISO_First_Group;Shift_L=ISO_First_Group&#39;</span>
+</span></span></code></pre></div><p>Здесь:</p>
+<ul>
+<li><code>-t</code> указывает длительность в мс, после которого xcape не станет обрабатывать нажатие. А дальше идёт описание клавиш:</li>
+<li><code>Control_L=ISO_First_Group</code>: <key>Ctrl</key> будет переключать на первую раскладку (напомню, у меня <key>Ctrl</key> находится на <key>CapsLock</key>);</li>
+<li><code>XF86WakeUp=Iso_First_Group</code>: это клавиша <key>Fn</key>, которая на ThinkPad находится на месте левого <key>Ctrl</key>;</li>
+<li><code>Shift_L=ISO_First_Group</code>: ну и <key>Shift</key> пускай тоже переключает, мне не жалко.</li>
+</ul>
+<p>Сначала там было <code>Control_L=Escape</code>, но это оказалось неудобно.
+В итоге вернулся к изначальному варианту, но при помощи <a href="https://github.com/jordansissel/xdotool">xdotool</a>.
+Нужно назначить на сочетание <key>Ctrl</key>+<key>Space</key> команду <code>sleep 0.2; xdotool key Escape</code>.
+Я сделал через notion, добавив в <code>cfg_hotkeys.lua</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>defbindings(<span style="color:#e6db74">&#34;WMPlex.toplevel&#34;</span>, {
+</span></span><span style="display:flex;"><span>	bdoc(<span style="color:#e6db74">&#34;Bind Ctrl+Space to Esc.&#34;</span>),
+</span></span><span style="display:flex;"><span>	kpress(<span style="color:#e6db74">&#34;Control+space&#34;</span>,     <span style="color:#e6db74">&#34;notioncore.exec_on(_, &#39;sleep 0.2; xdotool key Escape&#39;)&#34;</span>),
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">-- some other stuff</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Здесь <code>sleep 0.2</code> нужен чтобы успеть отпустить <key>Ctrl</key>, иначе опять получится то же, с чего начали.
+Значение подбирается такое, чтобы не сильно бесила задержка, но и при этом успевать отпустить <key>Ctrl</key>.</p>
+<p>Ну и остальные финты вполне очевидны из файлов раскладки:</p>
+<ul>
+<li><key>RAlt</key>+<key>hjkl</key> = курсор;</li>
+<li><key>RAlt</key>+<key>i</key>/<key>o</key> = <key>Home</key>/<key>End</key>;</li>
+<li><key>RAlt</key>+<key>u</key>/<key>d</key> = <key>PgUp</key>/<key>PgDn</key>.</li>
+</ul>
+<p>Это всё потому что на тхинкпадовской клавиатуре вышеупомянутые клавиши расположены, я бы сказал, бестолково.
+Причём это сделано только в раскладке us, т.к. в ru всё уже занято дополнительными символами, и места там под это всё нет.
+Но я всё-равно переключаюсь на us при любых манипуляциях (vim надрессировал), так что это не проблема.</p>
+<p>Вот, пожалуй, и всё.</p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    
+    <img class="about__logo" src="chertyhansky.yandex.ru/icon.svg" alt="Logo">
+<h1 class="about__title">Костыль и велосипед</h1>
+<p class="about__description">&hellip;семь бед - один ответ!</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/chertyhansky" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:chertyhansky@yandex.ru" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    <p>Пишем свою раскладку клавиатуры</p>
+    
+        <p>
+            By Akaky Chertyhansky, 
+            2024-10-30
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright">© Akaky Chertyhansky</p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>

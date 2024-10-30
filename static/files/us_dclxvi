@@ -1,0 +1,93 @@
+//
+// US with addition symbols and numeric 3'rd level for left hand
+//
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+// │ ~ ~ │ ! ≈ │ @ ∞ │ # § │ $ € │ % ‰ │ ^ ≤ │ & ≥ │ * × │ ( { │ ) } │ _ – │ + ± ┃ ⌫       ┃
+// │ `  ́ │ 1 ÷ │ 2 ¤ │ 3 № │ 4 $ │ 5 ° │ 6 < │ 7 > │ 8 • │ 9 [ │ 0 ] │ - — │ = ≠ ┃Backspace┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+// ┃       ┃ Q   │ W   │ E   │ R ® │ T   │ Y   │ U   │ I   │ O   │ P   │ {   │ }   ┃ Enter ┃
+// ┃ Tab ↹ ┃ q   │ w 3 │ e 2 │ r 1 │ t   │ y   │ u PU│ i Hm│ o En│ p   │ [   │ ]   ┃   ⏎   ┃
+// ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+// ┃ Ctrl   ┃ A   │ S   │ D   │ F   │ G   │ H   │ J   │ K   │ L   │ :   │ "   │ |   ┃      ┃
+// ┃        ┃ a   │ s 6 │ d PD│ f 4 │ g   │ h ← │ j ↓ │ k ↑ │ l → │ ;   │ '   │ \   ┃      ┃
+// ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┷━━━━━┻━━━━━━┫
+// ┃          ┃ Z   │ X   │ C © │ V   │ B   │ N ™ │ M   │ < « │ > » │ ?   ┃                ┃
+// ┃  Shift ⇧ ┃ z „ │ x “ │ c ° │ v   │ b   │ n ₸ │ m µ │ , „ │ . “ │ /   ┃     Shift ⇧    ┃
+// ┣━━━━━━━┳━━┻━━━━┳┷━━━━━┷┱────┴─────┴─────┴─────┴─────┴─────┴┲━━━━┷━━┳━━┻━━━━┳━━━━━━━┳━━━┛
+// ┃       ┃       ┃       ┃                                   ┃  LV3  ┃       ┃       ┃
+// ┃ Grp1  ┃ Meta  ┃  Alt  ┃              Space                ┃AltGr ⇮┃ Menu  ┃ Grp2  ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+//
+
+default partial alphanumeric_keys
+xkb_symbols "dclxvi" {
+	include "us(basic)"
+	include "level3(ralt_switch)"
+
+    name[Group1]= "English (with ads)";
+
+	key <RALT>	{ [	ISO_Level3_Shift	]	};
+//	key <MENU>	{ [ Alt_R ]	};
+	key <MENU>	{ [ Menu ]	};
+//	key <MENU>	{ type[Group1]="TWO_LEVEL", [ Multi_key, Multi_key ] };
+	key <PAUS>	{ [ Menu ]	};
+
+
+    key <TLDE> { [     grave,		asciitilde,		U2019,				apostrophe		] };
+    key <AE01> { [	  1,		exclam,			division,			U2248			] };
+    key <AE02> { [	  2,		at,			currency,			infinity		] };
+    key <AE03> { [	  3,		numbersign,		numerosign,			U20B4			] };
+    key <AE04> { [	  4,		dollar,			dollar,				EuroSign		] };
+    key <AE05> { [	  5,		percent,		degree,				permille		] };
+    key <AE06> { [	  6,		asciicircum,		less,				lessthanequal		] };
+    key <AE07> { [	  7,		ampersand,		greater,			greaterthanequal	] };
+    key <AE08> { [	  8,		asterisk,		enfilledcircbullet,		multiply		] };
+    key <AE09> { [	  9,		parenleft,		bracketleft,			braceleft		] };
+    key <AE10> { [	  0,		parenright,		bracketright,			braceright		] };
+    key <AE11> { [     minus,		underscore,		emdash,				endash			] };
+    key <AE12> { [     equal,		plus,			notequal,			plusminus		] };
+ 
+    key <AD01> { [	  q,		Q 		] };
+    key <AD02> { [	  w,		W,		3	] };
+    key <AD03> { [	  e,		E,		2		] };
+    key <AD04> { [	  r,		R,		1,	registered	] };
+    key <AD05> { [	  t,		T		] };
+    key <AD06> { [	  y,		Y		] };
+    key <AD07> { [	  u,		U,  Prior	] };
+    key <AD08> { [	  i,		I,  Home	] };
+    key <AD09> { [	  o,		O,  End 	] };
+    key <AD10> { [	  p,		P		] };
+    key <AD11> { [ bracketleft,		braceleft	] };
+    key <AD12> { [ bracketright,	braceright	] };
+
+    key <AC01> { [	  a,		A 		] };
+    key <AC02> { [	  s,		S,		6		] };
+    key <AC03> { [	  d,		D,		Next	] };
+    key <AC04> { [	  f,		F,		4		] };
+    key <AC05> { [	  g,		G		] };
+    key <AC06> { [	  h,		H,		Left ] };
+    key <AC07> { [	  j,		J,		Down ] };
+    key <AC08> { [	  k,		K,		Up ] };
+    key <AC09> { [	  l,		L,		Right ] };
+    key <AC10> { [ semicolon,		colon		] };
+    key <AC11> { [ apostrophe,		quotedbl	] };
+ 
+    key <AB01> { [	  z,		Z, 		doublelowquotemark	] };
+    key <AB02> { [	  x,		X,		leftdoublequotemark	] };
+    key <AB03> { [	  c,		C,		degree,		copyright	] };
+    key <AB04> { [	  v,		V		] };
+    key <AB05> { [	  b,		B		] };
+    key <AB06> { [	  n,		N,		U20B8,				trademark	] };
+    key <AB07> { [	  m,		M,		mu	] };
+    key <AB08> { [     comma,		less,		doublelowquotemark,		guillemotleft	] };
+    key <AB09> { [    period,		greater,	leftdoublequotemark,		guillemotright	] };
+    key <AB10> { [     slash,		question	] };
+	
+    key <BKSL> { [ backslash,         bar	] };
+
+    key <SPCE> {[  space,  Escape  ], type[group1] = "PC_CONTROL_LEVEL2" };
+
+    key <PRSC>  { [ ISO_Last_Group, Print], type[group1] = "PC_CONTROL_LEVEL2" };
+
+
+};

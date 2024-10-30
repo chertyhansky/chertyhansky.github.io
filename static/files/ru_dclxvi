@@ -1,0 +1,98 @@
+//
+// Russian-Kazakh layout
+//
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+// │ Ё ~ │ ! ≈ │ " ∞ │ # § │ ; € │ : ‰ │ , ≤ │ . ≥ │ * × │ ( { │ ) } │ _ – │ + ± ┃ ⌫       ┃
+// │ ё ' │ 1 ÷ │ 2 ¤ │ 3 № │ 4 $ │ 5 ° │ 6 < │ 7 > │ 8 • │ 9 [ │ 0 ] │ - — │ = ≠ ┃Backspace┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+// ┃       ┃ Й Ұ │ Ц   │ У Ү │ К Қ │ Е Є │ Н Ң │ Г Ғ │ Ш Ї │ Щ Ө │ З   │ Х Һ │ Ъ Ї ┃ Enter ┃
+// ┃ Tab ↹ ┃ й ұ │ ц   │ у ү │ к қ │ е є │ н ң │ г ғ │ ш ї │ щ ө │ з § │ х һ │ ъ ї ┃   ⏎   ┃
+// ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+// ┃ Ctrl   ┃ Ф   │ Ы І │ В Ў │ А Ә │ П   │ Р   │ О   │ Л   │ Д   │ Ж : │ Э " │ | ¦ ┃      ┃
+// ┃        ┃ ф   │ ы і │ в ў │ а ә │ п § │ р ← │ о ↓ │ л ↑ │ д → │ ж ; │ э ' │ / \ ┃      ┃
+// ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┷━━━━━┻━━━━━━┫
+// ┃          ┃ Я   │ Ч   │ С © │ М   │ И   │ Т ™ │ Ь ₽ │ Б « │ Ю » │ ?   ┃                ┃
+// ┃  Shift ⇧ ┃ я „ │ ч “ │ с ° │ м   │ и   │ т ₸ │ ь µ │ б < │ ю > │ /   ┃     Shift ⇧    ┃
+// ┣━━━━━━━┳━━┻━━━━┳┷━━━━━┷┱────┴─────┴─────┴─────┴─────┴─────┴┲━━━━┷━━┳━━┻━━━━┳━━━━━━━┳━━━┛
+// ┃       ┃       ┃       ┃                                   ┃ LV3   ┃       ┃       ┃
+// ┃ Grp1  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Grp2  ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+//
+// Kazakh symbols in level3
+default partial alphanumeric_keys
+xkb_symbols "rukz" {
+	include "ru(common)"
+	include "kpdl(dot)"
+	include "level3(ralt_switch)"
+	name[Group1]="Russian-Kazakh";
+
+	key <RALT>	{ [	ISO_Level3_Shift	]	};
+//	key <MENU>	{ [ Alt_R ]	};
+	key <MENU>	{ [ Menu ]	};
+//	key <MENU>	{ type[Group1]="TWO_LEVEL", [ Multi_key, Multi_key ] };
+	key <PAUS>	{ [ Menu ]	};
+
+
+	// number row
+	key <TLDE>	{ [ Cyrillic_io,		Cyrillic_IO,		apostrophe,			asciitilde		] };
+	key <AE01>	{ [ 1,				exclam,			division,			U2248			] };
+	key <AE02>	{ [ 2,				quotedbl,		currency,			infinity		] };
+	key <AE03>	{ [ 3,				numbersign,		numerosign,			U20B4			] };
+	key <AE04>	{ [ 4,				semicolon,		dollar,				EuroSign		] };
+	key <AE05>	{ [ 5,				colon,			degree,				permille		] };
+	key <AE06>	{ [ 6,				comma,			less,				lessthanequal		] };
+	key <AE07>	{ [ 7,				period,			greater,			greaterthanequal	] };
+	key <AE08>	{ [ 8,				asterisk,		enfilledcircbullet,		multiply		] };
+	key <AE09>	{ [ 9,				parenleft,		bracketleft,			braceleft		] };
+	key <AE10>	{ [ 0,				parenright,		bracketright,			braceright		] };
+	key <AE11>	{ [ minus,			underscore,		emdash,				endash			] };
+	key <AE12>	{ [ equal,			plus,			notequal,			plusminus		] };
+ 
+	key <LSGT>	{ [ slash,	bar	]	};
+
+	// 1'st row
+	key <AD01>	{ [ Cyrillic_shorti,		Cyrillic_SHORTI,	Cyrillic_u_straight_bar,	Cyrillic_U_straight_bar	] };
+	key <AD02>	{ [ Cyrillic_tse,		Cyrillic_TSE  ] };
+	key <AD03>	{ [ Cyrillic_u,			Cyrillic_U,		Cyrillic_u_straight,   		Cyrillic_U_straight	]	};
+	key <AD04>	{ [ Cyrillic_ka,		Cyrillic_KA,		Cyrillic_ka_descender,		Cyrillic_KA_descender	]	};
+	key <AD05>	{ [ Cyrillic_ie,		Cyrillic_IE,		Ukrainian_ie,			Ukrainian_IE		]	};
+	key <AD06>	{ [ Cyrillic_en,		Cyrillic_EN,		Cyrillic_en_descender,		Cyrillic_EN_descender	]	};
+	key <AD07>	{ [ Cyrillic_ghe,		Cyrillic_GHE,		Cyrillic_ghe_bar,		Cyrillic_GHE_bar	]	};
+	key <AD08>	{ [ Cyrillic_sha,		Cyrillic_SHA,		Ukrainian_yi,			Ukrainian_YI		]	};
+	key <AD09>	{ [ Cyrillic_shcha,		Cyrillic_SHCHA,     Cyrillic_o_bar,			Cyrillic_O_bar      ]   };
+	key <AD10>	{ [ Cyrillic_ze,		Cyrillic_ZE,		paragraph	]	};
+	key <AD11>	{ [ Cyrillic_ha,		Cyrillic_HA,		Cyrillic_shha,			Cyrillic_SHHA		]	};
+	key <AD12>	{ [ Cyrillic_hardsign,		Cyrillic_HARDSIGN,	Ukrainian_yi,			Ukrainian_YI		]	};
+
+	key <BKSL>	{ [ backslash,			bar,			slash,				brokenbar		]	};
+
+	// 2'nd row
+	key <AC01>	{ [ Cyrillic_ef,		Cyrillic_EF	] };
+	key <AC02>	{ [ Cyrillic_yeru,		Cyrillic_YERU,		Ukrainian_i,			Ukrainian_I		]	};
+	key <AC03>	{ [ Cyrillic_ve,		Cyrillic_VE,		Byelorussian_shortu,		Byelorussian_SHORTU	]	};
+	key <AC04>	{ [ Cyrillic_a,			Cyrillic_A,		    Cyrillic_schwa,			Cyrillic_SCHWA		]	};
+	key <AC05>	{ [ Cyrillic_pe,		Cyrillic_PE,		section  ] };
+	key <AC06>	{ [ Cyrillic_er,		Cyrillic_ER,		Left ]	};
+	key <AC07>	{ [ Cyrillic_o,			Cyrillic_O,		    Down ]	};
+	key <AC08>	{ [ Cyrillic_el,		Cyrillic_EL,        Up ] };
+	key <AC09>	{ [ Cyrillic_de,		Cyrillic_DE,        Right ] };
+	key <AC10>	{ [ Cyrillic_zhe,		Cyrillic_ZHE,		semicolon,			colon	] };
+	key <AC11>	{ [ Cyrillic_e,			Cyrillic_E,		apostrophe,			quotedbl	] };
+
+	// 3'rd row
+	key <AB01>	{ [ Cyrillic_ya,		Cyrillic_YA,		doublelowquotemark	] };
+	key <AB02>	{ [ Cyrillic_che,		Cyrillic_CHE,		leftdoublequotemark	] };
+	key <AB03>	{ [ Cyrillic_es,		Cyrillic_ES,		degree,				copyright	] };
+	key <AB04>	{ [ Cyrillic_em,		Cyrillic_EM  ] };
+	key <AB05>	{ [ Cyrillic_i,			Cyrillic_I  ] };
+	key <AB06>	{ [ Cyrillic_te,		Cyrillic_TE,		U20B8,				trademark	] };  // Tenge, TM
+	key <AB07>	{ [ Cyrillic_softsign,		Cyrillic_SOFTSIGN,	mu, U20BD	] };  // Rouble
+	key <AB08>	{ [ Cyrillic_be,		Cyrillic_BE,		less,				guillemotleft	] };
+	key <AB09>	{ [ Cyrillic_yu,		Cyrillic_YU,		greater,			guillemotright	] };
+	key <AB10>	{ [ slash,			question		] };
+	//------------------
+    key <SPCE> {[  space,  Escape  ], type[group1] = "PC_CONTROL_LEVEL2" };
+    key <PRSC>  { [ ISO_Last_Group, Print], type[group1] = "PC_CONTROL_LEVEL2" };
+
+
+};
