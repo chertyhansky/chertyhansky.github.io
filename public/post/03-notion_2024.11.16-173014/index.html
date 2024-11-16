@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head><title>Notion &ndash; Костыль и велосипед</title>
+<meta name="description" content="...семь бед - один ответ!">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="chertyhansky.yandex.ru/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="chertyhansky.yandex.ru/css/risotto.css">
+<link rel="stylesheet" href="chertyhansky.yandex.ru/css/custom.css">
+
+
+<link rel="icon" href="chertyhansky.yandex.ru/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="chertyhansky.yandex.ru/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="chertyhansky.yandex.ru/favicon-16x16.png">
+<link rel="apple-touch-icon" href="chertyhansky.yandex.ru/apple-touch-icon.png">
+<link rel="manifest" href="chertyhansky.yandex.ru/site.webmanifest">
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="chertyhansky.yandex.ru/" class="page__logo-inner">Костыль и велосипед</a></h1></li>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="chertyhansky.yandex.ru/chertyhansky.yandex.ru/about/" title="">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="chertyhansky.yandex.ru/chertyhansky.yandex.ru/categories/" title="">Categories</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="chertyhansky.yandex.ru/chertyhansky.yandex.ru/tags/" title="">Tags</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="chertyhansky.yandex.ru/chertyhansky.yandex.ru/post/" title="">Posts</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Notion</h1>
+    </header>
+    <div class="content__body">
+        <h2 id="содержание">Содержание:</h2>
+<ol>
+<li><a href="#intro">Введение</a></li>
+<li><a href="#features">Особенности notion</a></li>
+<li><a href="#install">Установка</a></li>
+<li><a href="#start">Запуск</a></li>
+<li><a href="#bindings">Сочетания клавиш</a>
+5.1 <a href="#basic">Базовые сочетания</a>
+5.2 <a href="#workspaces">Workspaces &amp; frames</a></li>
+<li><a href="#conclusion">Заключение</a></li>
+<li><a href="#links">Ссылки</a></li>
+</ol>
+<h2 id="a-idintroaвведение"><a id='intro'></a>Введение</h2>
+<p>Notion - это не тот, что сейчас у всех на слуху. Это tiling tabbed window manager, почему-то незаслуженно малопопулярный.</p>
+<p>Когда-то был ion3. Но его разработчик Tuomo Valkoonen в один прекрасный момент его забросил, покрыл матом всё opensource community и свалил на винду (немного эксцентричный товарищ, да).</p>
+<p>Notion - форк ion3. Полностью совместим с ion3, т.е. всё, что работало в ion3, точно так же работает и здесь. Когда-то по ion3 было много статей, но сейчас они все канули в небытие, посему постараюсь объять необъятное. Некоторое найденное будет в <a href="#links">ссылках</a> в конце.</p>
+<h2 id="a-idfeaturesaособенности-notion"><a id='features'></a>Особенности notion</h2>
+<p>Notion - tabbed tiling wm. Причём tiling - статический. Сейчас объясню что это и как.</p>
+<p>В нём нет привычных окон, которые могут быть произвольного размера, накладываться друг на друга, образовывать нагромождения и хаос.</p>
+<p>Notion состоит из фреймов. Каждое открытое окно занимает весь фрейм. Экран можно поделить на несколько фреймов как душе угодно, фреймам можно дать имена, приложениям можно дать правила какое из них в каком фрейме будет запускаться - и будет полная идиллия. Такой подход мне нравится сильно больше, чем wmii/awesome, где каждое новое приложение пытается подвинуть остальные и занять себе место на экране.</p>
+<p>В одном фрейме можно запустить несколько приложений. Тогда они сделаются вкладками внутри одного фрейма. Вот поэтому он tiling tabbed wm.</p>
+<p>Помимо обычных фреймов имеются плавающие, в терминологии notion - scratchpads. Scratchpad может быть произвольного размера и располагаться в произвольном месте экрана. Отличие от просто плавающего окна в том, что его можно показать/спрятать по хоткею. Например, у меня в них находятся мессенджеры: нажал хоткей, написал сообщение, нажал ещё раз - и готово. Положение его на экране запоминается. Самих scratchpads может быть сколько угодно.</p>
+<p>Имеются и традиционные уже для всех *nix-овых wm десктопы. На каждом из них можно создать свою конфигурацию фреймов, к фреймам или десктопам можно привязать свои приложения. Внутри скрэтчпада тоже можно создать нескольо фреймов, но это не очень удобно.</p>
+<p>Статусбар тоже в наличии. Есть возможность убрать в него systray (сам трей реализован сторонней утилитой, в моём случае stalonetray, но есть и другие. Ещё есть docker. Изначально он предназначался для апплетов WindowMaker, насколько я понял. У меня в нём живёт conky.</p>
+<p>Ну и для дополнительных возможностей есть плагины. Плагины, как и конфигурационные файлы, написаны на lua. Плагины позволяют, например, спрятать tabbar, если во фрейме всего одна вкладка; вывести информацию в статусбар (громкость, скорость интернет-соединения, заряд батареи, проигрываемый трек в mpd, и т.п.).</p>
+<h2 id="a-idinstallaустановка"><a id='install'></a>Установка</h2>
+<p>Notion присутствует в репозиториях большинства дистрибутивов. Поэтому <code>sudo pacman -S notion</code>, <code>sudo aptitude install notion</code> или <code>sudo emerge notion</code>, в зависимости от религии.</p>
+<p>Здесь есть нюанс. Если планируется использовать dock (например, как у меня - засунуть туда conky), то в стандартной сборке ширина этого самого дока 64 пикселя. Это захардкодено и не настраивается, но у нас тут опенсоурс: идём на <a href="https://github.com/raboof/notion/">github</a>, скачиваем исходники, в файле mod_dock/dock.c находим строки (начало в районе 281):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">const</span> WDockParam dock_param_tile_width<span style="color:#f92672">=</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;width&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;tile width&#34;</span>,
+</span></span><span style="display:flex;"><span>    NULL,
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">64</span>
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">const</span> WDockParam dock_param_tile_height<span style="color:#f92672">=</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;height&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;tile height&#34;</span>,
+</span></span><span style="display:flex;"><span>    NULL,
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">64</span>
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><p>Как понятно из кода, это соответственно ширина вертикального дока или высота горизонтального. 64 можно изменить на своё значение (у меня, например, 420), и далее - <code>make &amp;&amp; make install</code>, либо собрать пакет для своего дистрибутива, если по феншую.</p>
+<p>Далее остаётся добавить в <code>~/.xinitrc</code> строчку <code>notion</code> вместо того, что там сейчас - и готово.</p>
+<h2 id="a-idstartaзапуск"><a id='start'></a>Запуск</h2>
+<p>При первом запуске мы увидим поделённый на два фрейма десктоп, статусбар и, возможно, какое-то приветственное сообщение со шпаргалкой по дефолтным хоткеям.</p>
+<p><img src="/images/03-notion/01.png" alt="Первый запуск"></p>
+<p>Обычно это вводит в ступор, но мы не такие. Попробуем разобраться что дальше.</p>
+<p>На сайте есть <a href="https://notionwm.net/tour.html">шпаргалка</a>. Мои хоткеи ооочень отличаются от дефолтных, и писал я их настолько давно, что дефолтных уже и не помню. Переведу часть из шпаргалки, заодно прокомментирую немного от себя.</p>
+<p>Для начала немного вводной информации. Большинство хоткеев используют клавишу, называемую META.
+Так она названа в конфигах, так же будем называть её и тут, воизбежание путаницы.
+По умолчанию <code>META = &quot;Mod4+&quot;</code> (цитата из cfg_notion.lua). Mod4 - это клавиша с кривым окошком, она же winkey.
+Также есть <code>ALTMETA = &quot;Mod4+Shift&quot;</code> (уже отличие - у меня <code>ALTMETA=&quot;Mod1+&quot;</code>, т.е. <key>Alt</key>).</p>
+<p>А сочетания клавиш будем указывать в виде <code>META..T</code> или <code>META..Control+K</code>.
+Именно в таком виде они записаны в конфигурационных файлах (не совсем - я пропустил несколько кавычек для наглядности).
+Две точки - символ конкатенации строк в lua, соответственно <code>META..&quot;T&quot;</code> превратится в <code>&quot;Mod4+T&quot;</code>.
+Есть ещё вариант <code>META..K, Tab</code> - это означает, что надо нажать <code>META..K</code>, а потом <code>Tab</code>.
+Кавычки здесь буду пропускать, но в конфиге они нужны, без них lua не поймёт.
+В конфиги мы полезем позже, но привыкать будем заранее :)</p>
+<p>Ну и приложение, запущенное во фрейме, табе, скрэтчпаде или где-либо ещё, будем называть клиентом.</p>
+<p>Начнём.</p>
+<h2 id="a-idbindingsaсочетания-клавиш"><a id='bindings'></a>Сочетания клавиш</h2>
+<h3 id="a-idbasicaбазовые"><a id='basic'></a>Базовые</h3>
+<ul>
+<li><code>META..F1</code> - Notion man page;</li>
+<li><code>META..N</code>, <code>META..&quot;P&quot;</code> - фокус вниз/вверх;</li>
+<li><code>META..Tab</code>, <code>META..K, Tab</code> - фокус вправо/влево;</li>
+<li><code>F2</code> - запускает терминал (по умолчанию - xterm);</li>
+<li><code>F3</code> - запуск программ - можно написать в строке команду (автодополнение имеется) и нажать <key>Enter</key>.</li>
+</ul>
+<p>Тут мы впервые видим mod_query. Через него здесь устроен запуск программ, меню, выполнение кода на lua, и в принципе можно придумать любое применение.</p>
+<p><img src="/images/03-notion/mod_query.png" alt="mod_query"></p>
+<p>А теперь немного пошалим. Изначально у нас было два фрейма, теперь мы можем запускать программы. Запустим парочку терминалов в одном и том же фрейме - и мы увидим табы.</p>
+<p><img src="/images/03-notion/02.png" alt="Табы"></p>
+<ul>
+<li><code>META..K, N</code>, <code>META..K, P</code> - переключение между табами.</li>
+</ul>
+<p>Можно увидеть, что при нажатии <code>META..K</code> на табах появляются цифры:</p>
+<p><img src="/images/03-notion/03.png" alt="Табы"></p>
+<ul>
+<li>
+<p><code>META..K, &lt;цифра&gt;</code> - переключиться на соответствующий таб;</p>
+</li>
+<li>
+<p><code>META..T</code> - пометить клиент (в оригинале &ldquo;tag a client&rdquo;);</p>
+</li>
+<li>
+<p><code>META..K, A</code> - переместить клиент в текущий фрейм (в оригинале &ldquo;attach tagged&rdquo;).</p>
+</li>
+</ul>
+<p>Здесь нужно пояснение. Допустим, мы хотим перенести клиент &ldquo;2&rdquo; из правого фрейма в левый.</p>
+<p><img src="/images/03-notion/04.png" alt="Tagged"></p>
+<p>Так выглядит ситуация после нажатия <code>META..T</code>, находясь в первом табе правого фрейма.
+Тут мы тэгнули клиент.
+Далее мы можем перейти в левый фрейм и нажать там <code>META..K, A</code> - клиент &ldquo;2&rdquo; переместится в левый фрейм.</p>
+<p>Есть и другой способ сделать это же:</p>
+<ul>
+<li><code>META..A</code> - перенести клиент в текущий фрейм. Уже знакомый mod_query, сюда нужно вписать то, что мы видим в заголовке окна, а можно просто нажать <key>Tab</key> и выбрать из списка.</li>
+</ul>
+<h3 id="a-idworkspacesaworkspaces--frames"><a id="workspaces"></a>Workspaces &amp; frames</h3>
+<p>В notion workspaces - это то, что в других wm называется &ldquo;виртуальными рабочими столами&rdquo;.</p>
+<ul>
+<li><code>META..F9</code> - создать новый вокрспейс;</li>
+<li><code>META..1</code>, <code>META..2</code> и т.д. - переключиться на 1, 2 и т.д. вокрспейс;</li>
+<li>`META..comma, META..period  - предыдущий/следующий вокрспейс (comma &amp; period - соответственно, запятая и точка).</li>
+</ul>
+<p>Соответственно, окна между воркспейсами можно перемещать точно так же, как и между фреймами на одном воркспейсе.</p>
+<ul>
+<li><code>META..S</code> - разделить текущий фрейм на два по вертикали;</li>
+<li><code>META..K, S</code> - то же по горизонтали;</li>
+<li><code>META..K, X</code> - разрушить сплит (если во фреймах есть клиенты, они станут табами в одном фрейме);</li>
+</ul>
+<p>Теперь мы можем создавать структуры фреймов. Например, такое:</p>
+<p><img src="/images/03-notion/05.png" alt="layout"></p>
+<p>Не очень практично, но можем!</p>
+<ul>
+<li>
+<p><code>META..R</code> - режим изменения размера фрейма:</p>
+<ul>
+<li><code>курсор</code> - увеличить фрейм в заданном направлении;</li>
+<li><code>Shift+курсор</code> - уменьшить фрейм в заданном направлении;</li>
+<li><code>Esc</code> - отменить;</li>
+<li><code>Return</code> - подтвердить.</li>
+</ul>
+</li>
+<li>
+<p><code>F12</code> - главное меню, тоже mod_query с автодополнением. Из полезного сейчас:</p>
+<ul>
+<li><code>session/save</code> - сохранить сессию (имеется в виду воркспейсы и фреймы);</li>
+<li><code>session/exit</code> - выход;</li>
+<li><code>session/restart</code> - перезапустить notion (пригодится, когда будем редактировать конфиги).
+exit и restart по умолчанию тоже сохраняют сессию.</li>
+</ul>
+</li>
+<li>
+<p><code>META..Return</code> - развернуть клиент на весь экран и вернуть на место (клиент на самом деле становится новым воркспейсом, соответственно на него можно переключаться как на другой воркспейс);</p>
+</li>
+<li>
+<p><code>META..K, H</code>, <code>META..K, V</code> - развернуть фрейм на максимальную ширину/высоту или вернуть растянутому прежний размер.</p>
+</li>
+</ul>
+<p>Это далеко не всё, но объять все сочетания в одной статье - невозможно, да и большая их часть будет переназначена в процессе. Я не затронул, например, context menu, до которого можно добраться не помню каким дефолтным сочетанием, и правой кнопкой мыши по заголовку фрейма. Причём в первом случае это будет mod_query, а во втором - mod_menu, обычное меню для тыкания мышью. А все сочетания можно посмотреть в /etc/notion/<em>.lua (или /usr/local/etc/notion/</em>.lua, если установлено из исходников).</p>
+<h2 id="a-idconclusionaзаключение"><a id="conclusion"></a>Заключение</h2>
+<p>Надеюсь, из вышесказанного понятно, что WM более чем заслуживает внимания. Лично мне его возможностей хватает для всего, что требуется.</p>
+<p>Если почитать статьи 10-15-летней давности, можно заметить, что принципиально ничего и не изменилось, да и сейчас разработка не бурлит и не кипит, в github тихо, новых версий не выходит. Возможно, кто-то посчитает проект мёртвым, но я бы сказал, он настолько совершенен, что в доработках не нуждается.</p>
+<p>В следующей статье рассмотрим процесс настройки. В частности, дефолтные сочетания мне не нравятся категорически - для перемещения фокуса между фреймами у меня <code>META..&lt;H,J,K,L&gt;</code>, между табами - <code>META..&lt;I,O&gt;</code>, resize mode тоже через hjkl, и т.д..
+А пока можно почитать то, что есть ниже по ссылкам.</p>
+<h2 id="a-idlinksaссылки"><a id="links"></a>Ссылки</h2>
+<ol>
+<li><a href="https://notionwm.net/">Notion</a></li>
+<li><a href="https://github.com/raboof/notion/">Notion on github</a></li>
+<li><a href="https://notionwm.net/tour.html">A guided Tour through Notion</a></li>
+<li><a href="https://www.opennet.ru/docs/RUS/ion3/">Обзор оконного менеджера Ion3</a></li>
+<li><a href="https://raboof.github.io/notion-doc/notionconf/">Configuring and extending Notion with Lua</a></li>
+<li><a href="https://notionwm.net/notionkeys.html">Notion keyboard reference</a></li>
+</ol>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    
+    <img class="about__logo" src="chertyhansky.yandex.ru/icon.svg" alt="Logo">
+<h1 class="about__title">Костыль и велосипед</h1>
+<p class="about__description">&hellip;семь бед - один ответ!</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/chertyhansky" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:chertyhansky@yandex.ru" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    <p>Notion window manager</p>
+    
+        <p>
+            By Akaky Chertyhansky, 
+            2024-11-16
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright">© Akaky Chertyhansky</p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>
