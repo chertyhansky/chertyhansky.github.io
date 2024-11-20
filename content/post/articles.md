@@ -23,3 +23,6 @@ categories = [
 2. [Command Challenge](https://cmdchallenge.com/)
     - bash
     - shell
+
+3. [Profile Sync Daemon](https://wiki.archlinux.org/title/Profile-sync-daemon_(Русский%29)
+    - перенос профиля chrome на ramdisk
