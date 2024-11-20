@@ -26,3 +26,6 @@ categories = [
 
 3. [Profile Sync Daemon](https://wiki.archlinux.org/title/Profile-sync-daemon_(Русский%29)
     - перенос профиля chrome на ramdisk
+
+4. [Anythink sync daemon](https://wiki.archlinux.org/title/Anything-sync-daemon_(Русский%29)
+    - tmpfs с синхронизацией
