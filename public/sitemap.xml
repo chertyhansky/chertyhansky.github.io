@@ -2,72 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>chertyhansky.yandex.ru/</loc>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/guitar/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/index/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/keyboard/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/linux/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/linux/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tuxguitar/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/tuxguitar_2025.08.24-140117/</loc>
+    <lastmod>2025-08-24T14:01:17+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/03-notion_2024.11.16-173014/</loc>
     <lastmod>2024-11-16T17:30:15+05:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/categories/</loc>
+    <loc>//localhost:1313/tags/notion/</loc>
     <lastmod>2024-11-16T17:30:15+05:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/tags/index/</loc>
-    <lastmod>2024-11-16T17:30:15+05:00</lastmod>
-  </url><url>
-    <loc>chertyhansky.yandex.ru/tags/linux/</loc>
-    <lastmod>2024-11-16T17:30:15+05:00</lastmod>
-  </url><url>
-    <loc>chertyhansky.yandex.ru/categories/linux/</loc>
-    <lastmod>2024-11-16T17:30:15+05:00</lastmod>
-  </url><url>
-    <loc>chertyhansky.yandex.ru/tags/notion/</loc>
-    <lastmod>2024-11-16T17:30:15+05:00</lastmod>
-  </url><url>
-    <loc>chertyhansky.yandex.ru/post/03-notion_2024.11.16-173014/</loc>
-    <lastmod>2024-11-16T17:30:15+05:00</lastmod>
-  </url><url>
-    <loc>chertyhansky.yandex.ru/post/</loc>
-    <lastmod>2024-11-16T17:30:15+05:00</lastmod>
-  </url><url>
-    <loc>chertyhansky.yandex.ru/tags/</loc>
-    <lastmod>2024-11-16T17:30:15+05:00</lastmod>
-  </url><url>
-    <loc>chertyhansky.yandex.ru/tags/keyboard/</loc>
+    <loc>//localhost:1313/tags/xcape/</loc>
     <lastmod>2024-10-30T21:15:56+05:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/tags/xcape/</loc>
+    <loc>//localhost:1313/tags/xkb/</loc>
     <lastmod>2024-10-30T21:15:56+05:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/tags/xkb/</loc>
+    <loc>//localhost:1313/post/2024.10.30-211556-keyboard_showdown/</loc>
     <lastmod>2024-10-30T21:15:56+05:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/post/2024.10.30-211556-keyboard_showdown/</loc>
-    <lastmod>2024-10-30T21:15:56+05:00</lastmod>
-  </url><url>
-    <loc>chertyhansky.yandex.ru/tags/mouse/</loc>
+    <loc>//localhost:1313/tags/mouse/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/tags/vim/</loc>
+    <loc>//localhost:1313/post/2025.08.24_tuxguitar_shortcuts/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/post/2024.10.29-211247-howto_get_rid_of_mice/</loc>
+    <loc>//localhost:1313/tags/vim/</loc>
     <lastmod>2024-10-29T21:12:48+05:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/tags/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</loc>
+    <loc>//localhost:1313/post/2024.10.29-211247-howto_get_rid_of_mice/</loc>
+    <lastmod>2024-10-29T21:12:48+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/categories/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</loc>
+    <loc>//localhost:1313/tags/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</loc>
+    <loc>//localhost:1313/post/articles/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/post/articles/</loc>
+    <loc>//localhost:1313/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/archives/</loc>
+    <loc>//localhost:1313/post/test/</loc>
+    <lastmod>2024-09-02T10:07:12+05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>chertyhansky.yandex.ru/series/</loc>
+    <loc>//localhost:1313/series/</loc>
   </url>
 </urlset>
