@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on Костыль и велосипед</title>
-    <link>chertyhansky.yandex.ru/tags/index/</link>
+    <link>//localhost:1313/tags/index/</link>
     <description>Recent content in Index on Костыль и велосипед</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <copyright>© Akaky Chertyhansky</copyright>
-    <lastBuildDate>Sat, 16 Nov 2024 17:30:15 +0500</lastBuildDate>
-    <atom:link href="chertyhansky.yandex.ru/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 14:01:17 +0500</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>chertyhansky.yandex.ru/post/</link>
-      <pubDate>Sat, 16 Nov 2024 17:30:15 +0500</pubDate>
-      <guid>chertyhansky.yandex.ru/post/</guid>
+      <link>//localhost:1313/post/</link>
+      <pubDate>Sun, 24 Aug 2025 14:01:17 +0500</pubDate>
+      <guid>//localhost:1313/post/</guid>
       <description></description>
     </item>
   </channel>

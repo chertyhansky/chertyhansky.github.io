@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guitar on Костыль и велосипед</title>
+    <link>//localhost:1313/categories/guitar/</link>
+    <description>Recent content in Guitar on Костыль и велосипед</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <copyright>© Akaky Chertyhansky</copyright>
+    <lastBuildDate>Sun, 24 Aug 2025 14:01:17 +0500</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/guitar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuxguitar Shortcuts</title>
+      <link>//localhost:1313/post/tuxguitar_2025.08.24-140117/</link>
+      <pubDate>Sun, 24 Aug 2025 14:01:17 +0500</pubDate>
+      <guid>//localhost:1313/post/tuxguitar_2025.08.24-140117/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;h3 id=&#34;file&#34;&gt;File&lt;/h3&gt;&#xA;&lt;p&gt;New song&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;n&lt;/kbd&gt;&#xA;Save as&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Shift&lt;/kbd&gt;-&lt;kbd&gt;s&lt;/kbd&gt;&#xA;Save&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;s&lt;/kbd&gt;&#xA;Open&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;o&lt;/kbd&gt;&#xA;Close&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;w&lt;/kbd&gt;&#xA;Print&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;p&lt;/kbd&gt;&#xA;Print preview&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Shift&lt;/kbd&gt;-&lt;kbd&gt;p&lt;/kbd&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;edit&#34;&gt;Edit&lt;/h3&gt;&#xA;&lt;p&gt;Repeat&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;r&lt;/kbd&gt;&#xA;Undo&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;z&lt;/kbd&gt;&#xA;Redo&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;y&lt;/kbd&gt;&#xA;Mouse selection&#x9;&#x9;&#x9;&lt;kbd&gt;Shift&lt;/kbd&gt;-&lt;kbd&gt;v&lt;/kbd&gt;&#xA;Mouse editing&#x9;&#x9;&#x9;&lt;kbd&gt;Shift&lt;/kbd&gt;-&lt;kbd&gt;у&lt;/kbd&gt;&#xA;Voice 1&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;q&lt;/kbd&gt;&#xA;Voice 2&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;e&lt;/kbd&gt;&#xA;Caret&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;w&lt;/kbd&gt;/&lt;kbd&gt;a&lt;/kbd&gt;/&lt;kbd&gt;s&lt;/kbd&gt;/&lt;kbd&gt;d&lt;/kbd&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;track&#34;&gt;Track&lt;/h3&gt;&#xA;&lt;p&gt;Add&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Shift&lt;/kbd&gt;-&lt;kbd&gt;Ins&lt;/kbd&gt;&#xA;Mute/unmute&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Alt&lt;/kbd&gt;-&lt;kbd&gt;m&lt;/kbd&gt;&#xA;Solo&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Alt&lt;/kbd&gt;-&lt;kbd&gt;s&lt;/kbd&gt;&#xA;Go to first&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;up&lt;/kbd&gt;&#xA;Go to last&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;down&lt;/kbd&gt;&#xA;Next&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Down&lt;/kbd&gt;&#xA;Previous&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Up&lt;/kbd&gt;&#xA;Move down&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Shift&lt;/kbd&gt;-&lt;kbd&gt;Down&lt;/kbd&gt;&#xA;Move up&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Shift&lt;/kbd&gt;-&lt;kbd&gt;Up&lt;/kbd&gt;&#xA;Remove&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Shift&lt;/kbd&gt;-&lt;kbd&gt;Del&lt;/kbd&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;measure&#34;&gt;Measure&lt;/h3&gt;&#xA;&lt;p&gt;Go to first&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Home&lt;/kbd&gt;&#xA;Go to last&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;End&lt;/kbd&gt;&#xA;Next&#x9;&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Right&lt;/kbd&gt;&#xA;Previous&#x9;&#x9;&#x9;&#x9;&lt;kbd&gt;Left&lt;/kbd&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

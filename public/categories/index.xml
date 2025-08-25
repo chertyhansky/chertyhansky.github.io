@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Костыль и велосипед</title>
-    <link>chertyhansky.yandex.ru/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Костыль и велосипед</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <copyright>© Akaky Chertyhansky</copyright>
-    <lastBuildDate>Sat, 16 Nov 2024 17:30:15 +0500</lastBuildDate>
-    <atom:link href="chertyhansky.yandex.ru/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 14:01:17 +0500</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guitar</title>
+      <link>//localhost:1313/categories/guitar/</link>
+      <pubDate>Sun, 24 Aug 2025 14:01:17 +0500</pubDate>
+      <guid>//localhost:1313/categories/guitar/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linux</title>
-      <link>chertyhansky.yandex.ru/categories/linux/</link>
-      <pubDate>Sat, 16 Nov 2024 17:30:15 +0500</pubDate>
-      <guid>chertyhansky.yandex.ru/categories/linux/</guid>
+      <link>//localhost:1313/categories/linux/</link>
+      <pubDate>Sun, 24 Aug 2025 14:01:17 +0500</pubDate>
+      <guid>//localhost:1313/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Ссылки</title>
-      <link>chertyhansky.yandex.ru/categories/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</link>
+      <link>//localhost:1313/categories/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</link>
       <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>chertyhansky.yandex.ru/categories/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</guid>
+      <guid>//localhost:1313/categories/%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/</guid>
       <description></description>
     </item>
   </channel>

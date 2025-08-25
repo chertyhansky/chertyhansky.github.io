@@ -56,49 +56,548 @@
         <h1>Tuxguitar Shortcuts</h1>
     </header>
     <div class="content__body">
-        <h2 id="описание">Описание</h2>
-<p>Будет позже</p>
-<h2 id="код">Код</h2>
-<p>~/.tuxguitar-1.5.6/config/shortcuts.xml</p>
-<pre tabindex="0"><code>
-&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;no&#34;?&gt;
-&lt;shortcuts&gt;
-    &lt;shortcut action=&#34;action.song.new&#34; keys=&#34;Control n&#34;/&gt;
-    &lt;shortcut action=&#34;action.file.save-as&#34; keys=&#34;F12&#34;/&gt;
-    &lt;shortcut action=&#34;action.file.save&#34; keys=&#34;Control s&#34;/&gt;
-    &lt;shortcut action=&#34;action.file.open&#34; keys=&#34;Control o&#34;/&gt;
-    &lt;shortcut action=&#34;action.file.print&#34; keys=&#34;Control p&#34;/&gt;
-    &lt;shortcut action=&#34;action.edit.undo&#34; keys=&#34;Control z&#34;/&gt;
-    &lt;shortcut action=&#34;action.edit.redo&#34; keys=&#34;Control y&#34;/&gt;
-    &lt;shortcut action=&#34;action.edit.set-mouse-mode-selection&#34; keys=&#34;Shift v&#34;/&gt;
-    &lt;shortcut action=&#34;action.edit.set-mouse-mode-edition&#34; keys=&#34;Shift e&#34;/&gt;
+        <h2 id="description">Description</h2>
+<h3 id="file">File</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: right"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">New song</td>
+          <td style="text-align: right"><kbd>Ctrl</kbd>-<kbd>n</kbd></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Save as</td>
+          <td style="text-align: right"><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>s</kbd></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Save</td>
+          <td style="text-align: right"><kbd>Ctrl</kbd>-<kbd>s</kbd></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Open</td>
+          <td style="text-align: right"><kbd>Ctrl</kbd>-<kbd>o</kbd></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Close</td>
+          <td style="text-align: right"><kbd>Ctrl</kbd>-<kbd>w</kbd></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Print</td>
+          <td style="text-align: right"><kbd>Ctrl</kbd>-<kbd>p</kbd></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Print preview</td>
+          <td style="text-align: right"><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>p</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="edit">Edit</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Repeat</td>
+          <td><kbd>Ctrl</kbd>-<kbd>r</kbd></td>
+      </tr>
+      <tr>
+          <td>Undo</td>
+          <td><kbd>Ctrl</kbd>-<kbd>z</kbd></td>
+      </tr>
+      <tr>
+          <td>Redo</td>
+          <td><kbd>Ctrl</kbd>-<kbd>y</kbd></td>
+      </tr>
+      <tr>
+          <td>Mouse selection</td>
+          <td><kbd>Shift</kbd>-<kbd>v</kbd></td>
+      </tr>
+      <tr>
+          <td>Mouse editing</td>
+          <td><kbd>Shift</kbd>-<kbd>у</kbd></td>
+      </tr>
+      <tr>
+          <td>Voice 1</td>
+          <td><kbd>q</kbd></td>
+      </tr>
+      <tr>
+          <td>Voice 2</td>
+          <td><kbd>e</kbd></td>
+      </tr>
+      <tr>
+          <td>Caret</td>
+          <td><kbd>w</kbd>/<kbd>a</kbd>/<kbd>s</kbd>/<kbd>d</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="track">Track</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Add</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Ins</kbd></td>
+      </tr>
+      <tr>
+          <td>Mute/unmute</td>
+          <td><kbd>Alt</kbd>-<kbd>m</kbd></td>
+      </tr>
+      <tr>
+          <td>Solo</td>
+          <td><kbd>Alt</kbd>-<kbd>s</kbd></td>
+      </tr>
+      <tr>
+          <td>Go to first</td>
+          <td><kbd>Ctrl</kbd>-<kbd>up</kbd></td>
+      </tr>
+      <tr>
+          <td>Go to last</td>
+          <td><kbd>Ctrl</kbd>-<kbd>down</kbd></td>
+      </tr>
+      <tr>
+          <td>Next</td>
+          <td><kbd>Down</kbd></td>
+      </tr>
+      <tr>
+          <td>Previous</td>
+          <td><kbd>Up</kbd></td>
+      </tr>
+      <tr>
+          <td>Move down</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Down</kbd></td>
+      </tr>
+      <tr>
+          <td>Move up</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Up</kbd></td>
+      </tr>
+      <tr>
+          <td>Remove</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Del</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="measure">Measure</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Go to first</td>
+          <td><kbd>Home</kbd></td>
+      </tr>
+      <tr>
+          <td>Go to last</td>
+          <td><kbd>End</kbd></td>
+      </tr>
+      <tr>
+          <td>Next</td>
+          <td><kbd>Right</kbd></td>
+      </tr>
+      <tr>
+          <td>Previous</td>
+          <td><kbd>Left</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="note-general">Note (general)</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Clean beat</td>
+          <td><kbd>Ctrl</kbd>-<kbd>NumEnter</kbd></td>
+      </tr>
+      <tr>
+          <td>Delete note or rest</td>
+          <td><kbd>NumEnter</kbd></td>
+      </tr>
+      <tr>
+          <td>Decrement semitone</td>
+          <td><kbd>Shift</kbd>-<kbd>Left</kbd></td>
+      </tr>
+      <tr>
+          <td>Increment semitone</td>
+          <td><kbd>Shift</kbd>-<kbd>Right</kbd></td>
+      </tr>
+      <tr>
+          <td>Insert rest</td>
+          <td><kbd>Ins</kbd></td>
+      </tr>
+      <tr>
+          <td>Voice auto</td>
+          <td><kbd>Ctrl</kbd>-<kbd>a</kbd></td>
+      </tr>
+      <tr>
+          <td>Shift down</td>
+          <td><kbd>Shift</kbd>-<kbd>Down</kbd></td>
+      </tr>
+      <tr>
+          <td>Shift Up</td>
+          <td><kbd>Shift</kbd>-<kbd>Up</kbd></td>
+      </tr>
+      <tr>
+          <td>Set fret number</td>
+          <td><kbd>0</kbd>..<kbd>9</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="note-effect">Note (effect)</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Accentuated</td>
+          <td><kbd>Shift</kbd>-<kbd>.</kbd></td>
+      </tr>
+      <tr>
+          <td>Dead</td>
+          <td><kbd>x</kbd></td>
+      </tr>
+      <tr>
+          <td>Fade-in</td>
+          <td><kbd>,</kbd></td>
+      </tr>
+      <tr>
+          <td>Ghost</td>
+          <td><kbd>g</kbd></td>
+      </tr>
+      <tr>
+          <td>Hammer-on/Pull-off</td>
+          <td><kbd>h</kbd></td>
+      </tr>
+      <tr>
+          <td>Heavy accentuated</td>
+          <td><kbd>Shift</kbd>-<kbd>z</kbd></td>
+      </tr>
+      <tr>
+          <td>Let ring</td>
+          <td><kbd>l</kbd></td>
+      </tr>
+      <tr>
+          <td>Palm mute</td>
+          <td><kbd>m</kbd></td>
+      </tr>
+      <tr>
+          <td>Slide</td>
+          <td><kbd>z</kbd></td>
+      </tr>
+      <tr>
+          <td>Staccato</td>
+          <td><kbd>Shift</kbd>-<kbd>s</kbd></td>
+      </tr>
+      <tr>
+          <td>Tapping</td>
+          <td><kbd>t</kbd></td>
+      </tr>
+      <tr>
+          <td>Vibrato</td>
+          <td><kbd>v</kbd></td>
+      </tr>
+      <tr>
+          <td>Triplet-feel</td>
+          <td><kbd>Ctrl</kbd>-<kbd>3</kbd></td>
+      </tr>
+      <tr>
+          <td>Stroke-up</td>
+          <td><kbd>k</kbd></td>
+      </tr>
+      <tr>
+          <td>Stroke-down</td>
+          <td><kbd>j</kbd></td>
+      </tr>
+      <tr>
+          <td>Bend</td>
+          <td><kbd>b</kbd></td>
+      </tr>
+      <tr>
+          <td>Trill</td>
+          <td><kbd>r</kbd></td>
+      </tr>
+      <tr>
+          <td>Tremolo picking</td>
+          <td><kbd>Shift</kbd>-<kbd>r</kbd></td>
+      </tr>
+      <tr>
+          <td>Tremolo bar</td>
+          <td><kbd>Shift</kbd>-<kbd>b</kbd></td>
+      </tr>
+      <tr>
+          <td>Harmonic</td>
+          <td><kbd>f</kbd></td>
+      </tr>
+      <tr>
+          <td>Grace</td>
+          <td><kbd>`</kbd></td>
+      </tr>
+      <tr>
+          <td>Text</td>
+          <td><kbd>t</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="note-duration">Note (duration)</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Triplet</td>
+          <td><kbd>/</kbd></td>
+      </tr>
+      <tr>
+          <td>Dotted</td>
+          <td></kbd>.</kbd></td>
+      </tr>
+      <tr>
+          <td>Double-dotted</td>
+          <td><kbd>*</kbd></td>
+      </tr>
+      <tr>
+          <td>Increment duration</td>
+          <td><kbd>-</kbd></td>
+      </tr>
+      <tr>
+          <td>Decrement duration</td>
+          <td><kbd>+</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="transport">Transport</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Play</td>
+          <td><kbd>Space</kbd></td>
+      </tr>
+      <tr>
+          <td>Metronome</td>
+          <td><kbd>Shift</kbd>-<kbd>m</kbd></td>
+      </tr>
+      <tr>
+          <td>Countdown</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Set loop start</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>s</kbd></td>
+      </tr>
+      <tr>
+          <td>Set loop end</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>e</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="marker">Marker</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Previous</td>
+          <td><kbd>Alt</kbd>-<kbd>Left</kbd></td>
+      </tr>
+      <tr>
+          <td>Next</td>
+          <td><kbd>Alt</kbd>-<kbd>Right</kbd></td>
+      </tr>
+      <tr>
+          <td>First</td>
+          <td><kbd>Alt</kbd>-<kbd>Shift</kbd>-<kbd>Left</kbd></td>
+      </tr>
+      <tr>
+          <td>Last</td>
+          <td><kbd>Alt</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd></td>
+      </tr>
+      <tr>
+          <td>Marker editor</td>
+          <td><kbd>Shift</kbd>-<kbd>Ins</kbd></td>
+      </tr>
+      <tr>
+          <td>Marker list</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>m</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="view">View</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Increment scale</td>
+          <td><kbd>=</kbd></td>
+      </tr>
+      <tr>
+          <td>Decrement scale</td>
+          <td><kbd>-</kbd></td>
+      </tr>
+      <tr>
+          <td>Settings</td>
+          <td><kbd>F7</kbd></td>
+      </tr>
+      <tr>
+          <td>Song info</td>
+          <td><kbd>F5</kbd></td>
+      </tr>
+      <tr>
+          <td>Tempo</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>m</kbd></td>
+      </tr>
+      <tr>
+          <td>Clef</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>c</kbd></td>
+      </tr>
+      <tr>
+          <td>Key signature</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>k</kbd></td>
+      </tr>
+      <tr>
+          <td>Time signature</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>t</kbd></td>
+      </tr>
+      <tr>
+          <td>Transport mode</td>
+          <td><kbd>F9</kbd></td>
+      </tr>
+      <tr>
+          <td>Toggle transport</td>
+          <td><kbd>Ctrl</kbd>-<kbd>t</kbd></td>
+      </tr>
+      <tr>
+          <td>Browser</td>
+          <td><kbd>Ctrl</kbd>-<kbd>b</kbd></td>
+      </tr>
+      <tr>
+          <td>Help</td>
+          <td><kbd>F1</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="measure-1">Measure</h3>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Repeat close</td>
+          <td><kbd>;</kbd></td>
+      </tr>
+      <tr>
+          <td>Repeat alternative</td>
+          <td><kbd>Shift</kbd>-<kbd>;</kbd></td>
+      </tr>
+      <tr>
+          <td>Add measure</td>
+          <td><kbd>Ctrl</kbd>-<kbd>Ins</kbd></td>
+      </tr>
+      <tr>
+          <td>Clean measure</td>
+          <td><kbd>Ctrl</kbd>-<kbd>x</kbd></td>
+      </tr>
+      <tr>
+          <td>Copy measuree</td>
+          <td><kbd>Ctrl</kbd>-<kbd>c</kbd></td>
+      </tr>
+      <tr>
+          <td>Paste measure</td>
+          <td><kbd>Ctrl</kbd>-<kbd>v</kbd></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="code">Code</h2>
+<p><code>~/.config/tuxguitar/config/shortcuts.xml</code></p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34; standalone=&#34;no&#34;?&gt;
+&lt;shortcuts tg_version=&#34;1.6.6&#34;&gt;
+    &lt;shortcut action=&#34;action.song.new&#34; keys=&#34;ctrl n&#34;/&gt;
+    &lt;shortcut action=&#34;action.file.save-as&#34; keys=&#34;shift ctrl s&#34;/&gt;
+    &lt;shortcut action=&#34;action.file.save&#34; keys=&#34;ctrl s&#34;/&gt;
+    &lt;shortcut action=&#34;action.file.open&#34; keys=&#34;ctrl o&#34;/&gt;
+    &lt;shortcut action=&#34;action.file.close-current&#34; keys=&#34;ctrl w&#34;/&gt;
+    &lt;shortcut action=&#34;action.file.print&#34; keys=&#34;ctrl p&#34;/&gt;
+    &lt;shortcut action=&#34;action.file.print-preview&#34; keys=&#34;ctrl shift p&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.repeat&#34; keys=&#34;ctrl r&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.undo&#34; keys=&#34;ctrl z&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.redo&#34; keys=&#34;ctrl y&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.set-mouse-mode-selection&#34; keys=&#34;shift v&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.set-mouse-mode-edition&#34; keys=&#34;shift e&#34;/&gt;
     &lt;shortcut action=&#34;action.edit.voice-1&#34; keys=&#34;q&#34;/&gt;
     &lt;shortcut action=&#34;action.edit.voice-2&#34; keys=&#34;e&#34;/&gt;
     &lt;shortcut action=&#34;action.caret.go-right&#34; keys=&#34;d&#34;/&gt;
     &lt;shortcut action=&#34;action.caret.go-left&#34; keys=&#34;a&#34;/&gt;
     &lt;shortcut action=&#34;action.caret.go-up&#34; keys=&#34;w&#34;/&gt;
     &lt;shortcut action=&#34;action.caret.go-down&#34; keys=&#34;s&#34;/&gt;
-    &lt;shortcut action=&#34;action.track.add-new&#34; keys=&#34;Control Shift Ins&#34;/&gt;
-    &lt;shortcut action=&#34;action.track.go-first&#34; keys=&#34;Control Up&#34;/&gt;
-    &lt;shortcut action=&#34;action.track.go-last&#34; keys=&#34;Control Down&#34;/&gt;
-    &lt;shortcut action=&#34;action.track.go-next&#34; keys=&#34;Down&#34;/&gt;
-    &lt;shortcut action=&#34;action.track.go-previous&#34; keys=&#34;Up&#34;/&gt;
-    &lt;shortcut action=&#34;action.track.move-down&#34; keys=&#34;Shift Control Down&#34;/&gt;
-    &lt;shortcut action=&#34;action.track.move-up&#34; keys=&#34;Shift Control Up&#34;/&gt;
-    &lt;shortcut action=&#34;action.track.remove&#34; keys=&#34;Control Shift Del&#34;/&gt;
-    &lt;shortcut action=&#34;action.measure.go-first&#34; keys=&#34;Home&#34;/&gt;
-    &lt;shortcut action=&#34;action.measure.go-last&#34; keys=&#34;End&#34;/&gt;
-    &lt;shortcut action=&#34;action.measure.go-next&#34; keys=&#34;Right&#34;/&gt;
-    &lt;shortcut action=&#34;action.measure.go-previous&#34; keys=&#34;Left&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.general.tied&#34; keys=&#34;=&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.general.clean-beat&#34; keys=&#34;Control Del&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.general.decrement-semitone&#34; keys=&#34;Shift Left&#34;/&gt;
-    &lt;shortcut action=&#34;action.beat.general.delete-note-or-rest&#34; keys=&#34;Del&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.general.increment-semitone&#34; keys=&#34;Shift Right&#34;/&gt;
-    &lt;shortcut action=&#34;action.beat.general.insert-rest&#34; keys=&#34;Ins&#34;/&gt;
-    &lt;shortcut action=&#34;action.beat.general.voice-auto&#34; keys=&#34;Control a&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.general.shift-down&#34; keys=&#34;Shift Down&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.general.shift-up&#34; keys=&#34;Shift Up&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.add-new&#34; keys=&#34;shift ctrl ins&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.change-mute&#34; keys=&#34;alt m&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.change-solo&#34; keys=&#34;alt s&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.go-first&#34; keys=&#34;ctrl up&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.go-last&#34; keys=&#34;ctrl down&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.go-next&#34; keys=&#34;down&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.go-previous&#34; keys=&#34;up&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.move-down&#34; keys=&#34;shift ctrl down&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.move-up&#34; keys=&#34;shift ctrl up&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.remove&#34; keys=&#34;shift ctrl del&#34;/&gt;
+    &lt;shortcut action=&#34;action.measure.go-first&#34; keys=&#34;home&#34;/&gt;
+    &lt;shortcut action=&#34;action.measure.go-last&#34; keys=&#34;end&#34;/&gt;
+    &lt;shortcut action=&#34;action.measure.go-next&#34; keys=&#34;right&#34;/&gt;
+    &lt;shortcut action=&#34;action.measure.go-previous&#34; keys=&#34;left&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.general.clean-beat&#34; keys=&#34;ctrl numenter&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.general.decrement-semitone&#34; keys=&#34;shift left&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.delete-note-or-rest&#34; keys=&#34;numenter&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.general.increment-semitone&#34; keys=&#34;shift right&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.insert-rest&#34; keys=&#34;ins&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.voice-auto&#34; keys=&#34;ctrl a&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.general.shift-down&#34; keys=&#34;shift down&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.general.shift-up&#34; keys=&#34;shift up&#34;/&gt;
     &lt;shortcut action=&#34;action.note.general.set-fret-number-0&#34; keys=&#34;0&#34;/&gt;
     &lt;shortcut action=&#34;action.note.general.set-fret-number-1&#34; keys=&#34;1&#34;/&gt;
     &lt;shortcut action=&#34;action.note.general.set-fret-number-2&#34; keys=&#34;2&#34;/&gt;
@@ -109,55 +608,127 @@
     &lt;shortcut action=&#34;action.note.general.set-fret-number-7&#34; keys=&#34;7&#34;/&gt;
     &lt;shortcut action=&#34;action.note.general.set-fret-number-8&#34; keys=&#34;8&#34;/&gt;
     &lt;shortcut action=&#34;action.note.general.set-fret-number-9&#34; keys=&#34;9&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.effect.change-accentuated&#34; keys=&#34;Shift .&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.effect.change-accentuated&#34; keys=&#34;shift .&#34;/&gt;
     &lt;shortcut action=&#34;action.note.effect.change-dead&#34; keys=&#34;x&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.effect.change-fade-in&#34; keys=&#34;Shift ,&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.effect.change-fade-in&#34; keys=&#34;shift ,&#34;/&gt;
     &lt;shortcut action=&#34;action.note.effect.change-ghost&#34; keys=&#34;g&#34;/&gt;
     &lt;shortcut action=&#34;action.note.effect.change-hammer&#34; keys=&#34;h&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.effect.change-heavy-accentuated&#34; keys=&#34;Shift z&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.effect.change-heavy-accentuated&#34; keys=&#34;shift z&#34;/&gt;
     &lt;shortcut action=&#34;action.note.effect.change-let-ring&#34; keys=&#34;l&#34;/&gt;
     &lt;shortcut action=&#34;action.note.effect.change-palm-mute&#34; keys=&#34;m&#34;/&gt;
     &lt;shortcut action=&#34;action.note.effect.change-slide&#34; keys=&#34;z&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.effect.change-staccato&#34; keys=&#34;Shift s&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.effect.change-staccato&#34; keys=&#34;shift s&#34;/&gt;
     &lt;shortcut action=&#34;action.note.effect.change-tapping&#34; keys=&#34;t&#34;/&gt;
     &lt;shortcut action=&#34;action.note.effect.change-vibrato&#34; keys=&#34;v&#34;/&gt;
     &lt;shortcut action=&#34;action.note.duration.change-division-type&#34; keys=&#34;/&#34;/&gt;
     &lt;shortcut action=&#34;action.note.duration.change-dotted&#34; keys=&#34;.&#34;/&gt;
     &lt;shortcut action=&#34;action.note.duration.change-double-dotted&#34; keys=&#34;*&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.duration.increment-duration&#34; keys=&#34;+&#34;/&gt;
-    &lt;shortcut action=&#34;action.note.duration.decrement-duration&#34; keys=&#34;-&#34;/&gt;
-    &lt;shortcut action=&#34;action.transport.play&#34; keys=&#34;Space&#34;/&gt;
-    &lt;shortcut action=&#34;action.transport.metronome&#34; keys=&#34;Shift m&#34;/&gt;
-    &lt;shortcut action=&#34;action.transport.count-down&#34; keys=&#34;Shift c&#34;/&gt;
-    &lt;shortcut action=&#34;action.transport.set-loop-start&#34; keys=&#34;Alt Control s&#34;/&gt;
-    &lt;shortcut action=&#34;action.transport.set-loop-end&#34; keys=&#34;Alt Control e&#34;/&gt;
-    &lt;shortcut action=&#34;action.marker.go-previous&#34; keys=&#34;Alt Left&#34;/&gt;
-    &lt;shortcut action=&#34;action.marker.go-next&#34; keys=&#34;Alt Right&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-song-info-dialog&#34; keys=&#34;F5&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-tempo-dialog&#34; keys=&#34;Alt Control m&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-clef-dialog&#34; keys=&#34;Alt Control c&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-key-signature-dialog&#34; keys=&#34;Alt Control k&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-time-signature-dialog&#34; keys=&#34;Alt Control t&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-triplet-feel-dialog&#34; keys=&#34;Control 3&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.increment-duration&#34; keys=&#34;-&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.decrement-duration&#34; keys=&#34;+&#34;/&gt;
+    &lt;shortcut action=&#34;action.transport.play&#34; keys=&#34;space&#34;/&gt;
+    &lt;shortcut action=&#34;action.transport.metronome&#34; keys=&#34;shift m&#34;/&gt;
+    &lt;shortcut action=&#34;action.transport.count-down&#34; keys=&#34;shift&#34;/&gt;
+    &lt;shortcut action=&#34;action.transport.set-loop-start&#34; keys=&#34;alt ctrl s&#34;/&gt;
+    &lt;shortcut action=&#34;action.transport.set-loop-end&#34; keys=&#34;alt ctrl e&#34;/&gt;
+    &lt;shortcut action=&#34;action.marker.go-previous&#34; keys=&#34;alt left&#34;/&gt;
+    &lt;shortcut action=&#34;action.marker.go-next&#34; keys=&#34;alt right&#34;/&gt;
+    &lt;shortcut action=&#34;action.marker.go-first&#34; keys=&#34;alt shift left&#34;/&gt;
+    &lt;shortcut action=&#34;action.marker.go-last&#34; keys=&#34;alt shift right&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-increment-scale&#34; keys=&#34;shift =&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-decrement-scale&#34; keys=&#34;shift -&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-settings-editor&#34; keys=&#34;f7&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-song-info-dialog&#34; keys=&#34;f5&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-tempo-dialog&#34; keys=&#34;alt ctrl m&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-clef-dialog&#34; keys=&#34;alt ctrl c&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-key-signature-dialog&#34; keys=&#34;shift ctrl k&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-time-signature-dialog&#34; keys=&#34;shift ctrl t&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-triplet-feel-dialog&#34; keys=&#34;ctrl 3&#34;/&gt;
     &lt;shortcut action=&#34;action.gui.open-stroke-up-dialog&#34; keys=&#34;k&#34;/&gt;
     &lt;shortcut action=&#34;action.gui.open-stroke-down-dialog&#34; keys=&#34;j&#34;/&gt;
     &lt;shortcut action=&#34;action.gui.open-bend-dialog&#34; keys=&#34;b&#34;/&gt;
     &lt;shortcut action=&#34;action.gui.open-trill-dialog&#34; keys=&#34;r&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-tremolo-picking-dialog&#34; keys=&#34;Shift r&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-tremolo-bar-dialog&#34; keys=&#34;Shift b&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-tremolo-picking-dialog&#34; keys=&#34;shift r&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-tremolo-bar-dialog&#34; keys=&#34;shift b&#34;/&gt;
     &lt;shortcut action=&#34;action.gui.open-harmonic-dialog&#34; keys=&#34;f&#34;/&gt;
     &lt;shortcut action=&#34;action.gui.open-grace-dialog&#34; keys=&#34;`&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-text-dialog&#34; keys=&#34;shift t&#34;/&gt;
     &lt;shortcut action=&#34;action.gui.open-repeat-close-dialog&#34; keys=&#34;;&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-repeat-alternative-dialog&#34; keys=&#34;Shift ;&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-measure-add-dialog&#34; keys=&#34;Control Ins&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-measure-clean-dialog&#34; keys=&#34;Control x&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-measure-copy-dialog&#34; keys=&#34;Control c&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-measure-paste-dialog&#34; keys=&#34;Control v&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-transport-mode-dialog&#34; keys=&#34;F9&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-marker-editor-dialog&#34; keys=&#34;Shift Ins&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.toggle-browser-dialog&#34; keys=&#34;Control b&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.toggle-transport-dialog&#34; keys=&#34;Control t&#34;/&gt;
-    &lt;shortcut action=&#34;action.gui.open-documentation-dialog&#34; keys=&#34;F1&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-repeat-alternative-dialog&#34; keys=&#34;shift ;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-measure-add-dialog&#34; keys=&#34;ctrl ins&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-measure-clean-dialog&#34; keys=&#34;ctrl x&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-measure-copy-dialog&#34; keys=&#34;ctrl c&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-measure-paste-dialog&#34; keys=&#34;ctrl v&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-transport-mode-dialog&#34; keys=&#34;f9&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-marker-editor-dialog&#34; keys=&#34;shift ins&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-browser-dialog&#34; keys=&#34;control b&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-transport-dialog&#34; keys=&#34;control t&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-marker-list&#34; keys=&#34;shift ctrl m&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-documentation-dialog&#34; keys=&#34;f1&#34;/&gt;
+    &lt;shortcut action=&#34;action.file.close-others&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.file.close-all&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.cut&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.copy&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.paste&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.edit.set-natural-key&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.selection.clear&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.selection.extend-left&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.selection.extend-right&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.selection.extend-previous&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.selection.extend-next&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.selection.extend-first&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.selection.extend-last&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.selection.select-all&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.track.clone&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.tied&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.move-left&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.move-right&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.remove-unused-voice&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.voice-down&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.voice-up&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.remove-text&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.beat.general.remove-chord&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.effect.change-popping&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.effect.change-slapping&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.set-whole&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.set-half&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.set-quarter&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.set-eighth&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.set-sixteenth&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.set-thirty-second&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.note.duration.set-sixty-fourth&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.transport.playstop&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.transport.stop&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-set-page&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-set-linear&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-set-multitrack&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-set-score-enabled&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-set-tablature-enabled&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-set-compact&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-set-chord-name-enabled&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.view.layout-set-chord-diagram-enabled&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.transport.highlight-played-beat&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-key-binding-editor&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-plugin-list-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-beat-move-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-chord-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-measure-remove-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-track-tuning-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-track-properties-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-scale-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-url-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-transpose-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-fretboard-editor&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-piano-editor&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-matrix-editor&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-lyric-editor&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-channels-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-main-toolbar&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-edit-toolbar&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.toggle-table-viewer&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.open-about-dialog&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;action.gui.go-to-homepage&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;tuner.tuner&#34; keys=&#34;&#34;/&gt;
+    &lt;shortcut action=&#34;batch.converter&#34; keys=&#34;&#34;/&gt;
 &lt;/shortcuts&gt;
 </code></pre>
     </div>
